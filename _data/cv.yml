@@ -11,18 +11,19 @@
 - title: Education
   type: time_table
   contents:
-    - title: MS (Thesis with PhD Option) in CS
-      institution: Virginia Tech
+    - title: MSE (Thesis with PhD Option) in CS
+      institution: John Hopkins University
       year: 2026
       description:
         - Specialization in NLP
+        - Research at CLSP under Prof. Villalba
     - title: BE Instrumentation & Control Technology
       institution: Delhi University - NSIT
       year: 2022
       description:
         - Premier Research Awards 2022
         - Premier Research Awards 2023
-        - Thesis: Applications of Deep Learning to Speech Processing
+        - Thesis on the "Applications of Deep Learning to Speech Processing"
 
 - title: Experience
   type: time_table

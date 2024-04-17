@@ -6,12 +6,12 @@ title: Hi! I am Prabhav. # the website title (if blank, full name will be used i
 first_name: Prabhav
 middle_name:
 last_name: Singh
-email: prabhavs@vt.edu
+email: psingh54@jhu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A website to track my research, experience and current news.
 footer_text: >
   Based on a theme from al/folio.
-keywords: virginiatech, prabhav-singh, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: jhu, prabhav-singh, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -26,7 +26,7 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: light # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -73,7 +73,7 @@ linkedin_username: prabhavsingh # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: NiUjxAwAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: +919205824219# your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+whatsapp_number: +919205824219 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -102,7 +102,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Best way to reach me is through my VT Email ID. You can also use my personal email - prabhavsingh55221@gmail.com
+  Best way to reach me is through my JHU Email ID. You can also use my personal email - prabhavsingh55221@gmail.com
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

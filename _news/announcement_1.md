@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accepted to Virginia Tech for the Masters in CS (Thesis) Program!
+Accepted to JHU's MSE CS Program for Fall 2024!

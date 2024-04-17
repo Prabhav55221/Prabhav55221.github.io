@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cs.vt.edu'>MSCS@Virginia Tech</a> | <a href='https://zyient.io'>NLP@Zyient.io</a>
+subtitle: <a href='https://engineering.jhu.edu'>MSE CS Thesis @ JHU (CLSP)</a> | <a href='https://zyient.io'>NLP @ Zyient.io</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href='mailto:prabhavs@vt.edu'>Reach Out on Email</a></p>
+    <p><a href='mailto:psingh54@jhu.edu'>My Mailing Address</a></p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -17,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am Prabhav Singh, currently a Data Scientist at <a href="http://zyient.io">Zyient</a> and an incoming <b>MS/PhD student at Virginia Tech</b> for Fall 2024.
-Most of my formal training in the area of NLP with a specific focus on <a href="http://multicomp.cs.cmu.edu/multimodal-machine-learning/">multimodal processing</a>. I will be pursuing my PhD in this field at Virginia Tech and I am open to collaboration on related topics!
+Hi! I am Prabhav Singh, currently a Data Scientist at <a href="http://zyient.io">Zyient</a> and an incoming <b>MSE Thesis student at Johns Hopkins</b> for Fall 2024.
+Most of my formal training in the area of NLP with a specific focus on <a href="http://multicomp.cs.cmu.edu/multimodal-machine-learning/">multimodal processing</a>. I will be pursuing my PhD in this field at JHU and I am open to collaboration on related topics!
 
 I am fortunate enought to have worked under <a href="https://sites.google.com/site/kpsrana1/home">Prof. KPS Rana</a> and <a href="https://vineetkumar27.wordpress.com">Prof. Vineet Kumar</a> at the <a href="https://apclnsit.wordpress.com">APCL, NSIT</a> where I researched ways to make language models more humanistic. I had the privilege of working with <a href="https://iiitd.ac.in/debarka">Prof. Debarka Sengupta</a> at the IIIT Delhi Speech Research Laboratory.
 
-I have done my best to describe my research below. Please feel free to reach out to me for any question/collaborations. My Email is <a href="mailto:prabhavs@vt.edu">prabhavs@vt.edu</a>.
+I have done my best to describe my research below. Please feel free to reach out to me for any question/collaborations.
 
 <br>
 <br>
