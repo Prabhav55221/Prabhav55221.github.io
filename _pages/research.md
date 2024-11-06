@@ -14,7 +14,7 @@ For example, in the case of speech emotion recognition, humans have a very defin
 
 <h1>Current Research</h1>
 
-I am currently on track to join CLSP (Center for Language and Speech Processing) at Johns Hopkins University. Ranked in the top 5 in this field, I will be working under Prof. Jesus Villalba in the field of multimodal speech emotion recogntion while also combining the same with speaker identification and aiming to increase the SOTA in this field.
+I am currently on track to join CLSP (Center for Language and Speech Processing) at Johns Hopkins University. Ranked in the top 5 in this field, I will be working under Prof. Jesus Villalba, this fall, in the field of multimodal speech emotion recogntion while also combining the same with speaker identification and aiming to increase the SOTA in this field.
 
 <h1>Research Experience (Labs & Internship)</h1>
 
