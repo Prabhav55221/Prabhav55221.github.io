@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Completed 1 Year at Zyient.io, working as a Data Scientist with the organization.
+Moving on after 1 Year at Zyient.io, working as a Data Scientist with the organization.
 
 ---
 
