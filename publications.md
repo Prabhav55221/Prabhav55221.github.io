@@ -8,22 +8,20 @@ title: Publications
 
 ## Conference Papers
 
-- [Semantic Learning for Molecular Communication in Internet of Bio-Nano Things](https://arxiv.org/abs/2502.08426)<br>**Hanlin Cai**, Ozgur B. Akan~<br>Proceedings of the 9th Workshop on Molecular Communications<br>Catania, Italy. February, 2025.
+- [Multimodal Emotion Recognition Harnessing the Complementarity of Speech,
+Language, and Vision](https://dl.acm.org/doi/10.1145/3678957.3689332)<br>Thomas Thebaud†**~**, Anna Favaro†, **Prabhav Singh**†, Yaohan Guan†, Yuchen Yang†, Jesus Villalba, Laureano Mono-Velazquez, Najim Dehak<br>In Proc. of the 26th International Conference on Multimodal Interaction (ICMI ’24)<br>San Jose, Costa Rica. September, 2024.<br><span style="color: red"> First Position, Empathic Virtual Agent Challenge 2024</span>
 
-- [Securing Billion Bluetooth Low Energy Devices Using Cyber-Physical Analysis and Deep Learning Techniques](https://www.researchgate.net/publication/384046364/)<br>**Hanlin Cai**†, Yuchen Fang†, Jiacheng Huang, Honglin Liao, Meng Yuan, Zhezhuang Xu**~**<br>The 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024), [Undergraduate Consortium](https://kdd2024.kdd.org/undergraduate-consortium/).<br>Barcelona, Spain. August, 2024.<br>
+- Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization<br>**Prabhav Singh~**, Jesus Villalba, Najim Dehak<br>In Proceedings of INTERSPEECH 2025<br>Rotterdam, Netherlands. August, 2025.<br><span style="color: red">Accepted [Presenting in August 2025]</span>
 
-- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://dl.acm.org/doi/abs/10.1145/3643832.3661434)<br>**Hanlin Cai**, Yuchen Fang, Jiacheng Huang, Meng Yuan, Zhezhuang Xu**~**<br>The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024), Poster.<br>Tokyo, Japan. June, 2024.
-
-  <br>
-
-- Applying LLM-Powered Virtual Humans to Child Interviews in Child-Centered Design<br>Linshi Li, **Hanlin Cai~**<br>The 24th Annual ACM Interaction Design and Children Conference (IDC 25)<br>Reykjavik, Iceland. June, 2025.
-
-- SeeMusic: XR-Enhanced Musical Language Training Application for Hearing-impaired Children<br>Linshi Li, Xianjinghua Chen, Yutian Qin and **Hanlin Cai~**<br>The 14th IEEE International Conference on Educational and Information Technology (ICEIT 2025).<br>Guangzhou, China. March, 2025.
+- EmoJudge: LLM Based Post-Hoc Refinement for Multimodal Speech Emotion Recognition<br>**Prabhav Singh~**, Jesus Villalba<br>In Proceedings of INTERSPEECH 2025<br>Rotterdam, Netherlands. August, 2025.<br><span style="color: red">Accepted [Presenting in August 2025]</span>
 
 ## Peer-Reviewed Journals
 
-- Semantic Communication for the Internet of Space: New Architecture, Challenges, and Future Vision<br>Hanlin Cai, Houtianfu Wang, Haofan Dong, Ozgur B. Akan~<br>[arXiv](https://arxiv.org/abs/2503.23446). Submitted to IEEE Communications Standards Magazine.
+- [SEMI-FND: Stacked ensemble based multimodal inferencing framework for faster fake news detection](https://doi.org/10.1016/j.eswa.2022.119302)<br>**Prabhav Singh~**†, R. Srivastava†, K. Rana, V. Kumar<br>*Expert Systems With Applications*, Elsevier, Volume 215, 2023, Article 119302.<br>
 
+- [A topic modeled unsupervised approach to single document extractive text summarization](https://doi.org/10.1016/j.knosys.2022.108636)<br>R. Srivastava **~**†, **Prabhav Singh**†, K. Rana, V. Kumar<br>*Knowledge-Based Systems*, Elsevier, Volume 246, 2022, Article 108636.<br>
+
+- [A multimodal hierarchical approach to speech emotion recognition from audio and text](https://doi.org/10.1016/j.knosys.2021.107316)<br>**Prabhav Singh~**†, R. Srivastava†, K. Rana, V. Kumar<br>*Knowledge-Based Systems*, Elsevier, Volume 229, 2021, Article 107316.<br>
 
 <br>
 
@@ -32,13 +30,13 @@ title: Publications
 
 ## Posters / Preprints / Challenges
 
-> (Includes stuff I did for classes at JHU)
+> *Includes stuff I did for classes at JHU*
 
-- [Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://ojs.aaai.org/index.php/AAAI/article/view/30544)<br>*Final year project ([thesis](https://caihanlin.com/mypaper/thesis/UG-thesis.pdf)).*<br>**Hanlin Cai** (Advisors: Zhezhuang Xu, Tozammel Hossain)<br>The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024), [Undergraduate Consortium](https://aaai.org/aaai-24-conference/undergraduate-consortium-program/).<br>Vancouver, Canada. February, 2024.
+- [The JHU-MIT Submission to NIST 2024 Speaker Recognition Evaluation
+(SRE24)](https://Prabhav55221.github.io/file/nistsre.pdf)<br>Jesus Villalba, **Prabhav Singh**, J. Borgstrom et al.<br>National Institute of Science and Technology, Speech Recognition Evaluation 2024<br><span style="color: red">Accepted and Presented</span>
 
-- Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model<br>*Junior-year course design.*<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics.<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
+- [Active Learning and Feature-Acquisition with LLMs and Humans](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)<br>**Prabhav Singh**, Haojun Shi, Jason Eisner<br>Mid-Atlantic Student Colloquium on Speech, Language and Learning 2025<br><span style="color: red"> Best Poster Award</span>
 
-- An IoT Garbage Monitoring System for Effective Garbage Management<br>*First-year course design.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
 
   <br>
 

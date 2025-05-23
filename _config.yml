@@ -4,7 +4,7 @@ url: https://Prabhav55221.github.io
 # Owner/author information
 owner:
   name: Prabhav Singh
-  avatar: profile.jpg
+  avatar: profile.png
   email: psingh54@jhu.edu
   cv: https://Prabhav55221.github.io/file/prabhavsresume.pdf
   twitter: psingh522
@@ -36,8 +36,8 @@ links:
     url: /publications/
   # - title: Awards
   #   url: /awards/
-  - title: Hobbies
-    url: /hobbies/
+  # - title: Hobbies
+  #   url: /hobbies/
   # - title: Startups
     # url: /startups/
   - title: Random Stuff
