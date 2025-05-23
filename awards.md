@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-> Update: 20th Sep 2024
+<!-- > Update: 20th Sep 2024
 
 ## Scholarships
 
@@ -26,4 +26,4 @@ title: Awards
 - Nov 2022：First Prize (Provincial Level) in China Undergraduate Mathematical Contest in Modeling (Top 8%)
 - June 2022：**Championship** of 100-meter Freestyle Swimming Competition of Fuzhou University<br>
 
-<br>
+<br> -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /blogs/index.html
 title: Blogs
@@ -53,4 +53,4 @@ title: Blogs
 
 My WeChat account - lancecai2002
 
-<br>
+<br> -->
