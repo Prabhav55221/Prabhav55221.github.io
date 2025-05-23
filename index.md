@@ -6,11 +6,11 @@ layout: page
 
 <img src="https://Prabhav55221.github.io/profile.png" class="floatpic">
 
-Hi! I'm **Prabhav Singh (pronounced Prah-bav)**.<br>
+Hi! I'm **Prabhav Singh (pronounced Prah-bav)**.<br><br>
 
 I am currently pursuing my Master's in CS (Thesis) with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) from [JHU](https://engineering.jhu.edu). I am doing my graduate research at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) where I am fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) & [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/).
 
-I completed my Bachelor's in Engineering (Electrical) from [Delhi University](https://www.du.ac.in) in India. There, I worked under [Prof. KPS Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT during my undergraduate degree, where I researched ways to make language and speech models more humanistic. I had the privilege of working with [Prof. Debarka Sengupta](https://www.thesenguptalab.com) at the IIIT Delhi Speech Research Laboratory - Where we worked on a new approach to Question-Answering Systems.
+I completed my Bachelor's in Engineering (Electrical) from [Delhi University](https://www.du.ac.in) in India. There, I worked under [Prof. KPS Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT during my undergraduate degree, where I researched ways to make language and speech models more humanistic. I had the privilege of working with [Prof. Debarka Sengupta](https://www.thesenguptalab.com) at the IIIT Delhi Speech Research Laboratory - Where we worked on a new approach to Question-Answering Systems.<br><br>
 
 You can find all the boring stuff in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf), you can get in touch with me at my email ```psingh at jhu dot edu```. 
 
