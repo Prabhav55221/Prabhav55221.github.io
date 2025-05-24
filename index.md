@@ -22,7 +22,9 @@ You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhav
 
 ## my (ever-changing) research interests
 
-<details open>
+My broad interests are in the field of langauge modeling, speech representation and any combination of both that is helpful in solving a task. See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more, or read about my major research areas as of now below.
+
+<details>
 <summary><strong>Cheaper LLM + Human Workflows</strong>: Combining humans and LLMs in a pipeline that enables principled, cost-effective annotation and evaluation.</summary>
 
 <br>
@@ -98,8 +100,6 @@ Read our ongoing manuscript: <a href="https://Prabhav55221.github.io/file/Sensit
 </p>
 
 </details>
-
-<p><em>📝 See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more.</em></p>
 
 
 <!-- ## my (ever-changing) research interests
