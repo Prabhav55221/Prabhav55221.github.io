@@ -6,34 +6,48 @@ layout: page
 
 <img src="https://Prabhav55221.github.io/profile.png" class="floatpic">
 
-I'm **Prabhav Singh (pronounced Prah-bav)**.<br><br>
+I'm **Prabhav Singh** *(pronounced **Prah-bav**)*.
 
-I am currently pursuing my Master's in CS (Thesis) with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) from [JHU](https://engineering.jhu.edu). I am doing my graduate research at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) where I am fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) & [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). <br>
+I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/).  
+I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/).
 
-I completed my Bachelor's in Engineering (Electrical) from [Delhi University](https://www.du.ac.in) in India. There, I worked under [Prof. KPS Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.<br><br>
+Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
 
-You can find all the boring stuff in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf), you can get in touch with me at my email ```psingh at jhu dot edu```. 
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf).  
+Feel free to reach out at: `psingh at jhu dot edu`
 
-**<font color="#990000">I am actively seeking a PhD position for 2026 Fall admission. If you have any information, please contact me. Thank you!</font>**
-
----
-
-## my (ever-changing) research interests
-
-- **Cheaper LLM Workflows**- Most recently, I have been working to develop better and cheaper annotation and evaluation frameworks that make use of LLMs. This involves invoking concepts of Value of Information ([See this](https://arxiv.org/abs/2110.13973) or [this](https://dl.acm.org/doi/10.5555/2051237.2051240)), Gradient based strategies ([See this](https://arxiv.org/abs/2002.08484) and [this](https://arxiv.org/abs/2402.04333)) for faster VOI, active learning and more.
-- **Multimodal Learning for Language and Speech** - I design models that fuse information from speech, text, and visual cues, targeting tasks such as emotion recognition ([like my papers here](https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf)) and speaker diarization ([like this one](https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf)). I’m especially interested in building systems that reason over heterogeneous modalities with minimal supervision.
-- **Structured Probabilistic Modeling** - My work explores statistical methods such as multitask learning, variational inference, and Bayesian reasoning to represent linguistic structure and temporal sequences in a robust, interpretable manner.
-
-See my [papers](https://Prabhav55221.github.io/publications) for more detail.
+> 💡 <span style="color:#990000;"><strong>I am actively seeking PhD positions for Fall 2026.</strong> If you are aware of openings or opportunities, I'd deeply appreciate hearing from you!</span>
 
 ---
 
-## updates!
+## 🧠 my (ever-changing) research interests
 
-- **June 2025**: Starting my summer internship at a ```stealth startup``` in California. I will mostly be working with agentic workflows for document processing and understanding in the financial and retail space.
-- **May 2025**: Two papers accepted to Interspeech 2025 (See my [X post](https://x.com/psingh522/status/1925354318988751117) for more details). Will share arXiv links once we get the camera ready version up. See you in Rotterdam!
-- **April 2025**: Our poster ([read here](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)) won a best poster award at [MASC-SLL 2025](https://www.mascsll.org/program/#:~:text=Active%20Learning%20and%20Feature%2DAcquisition%20with%20LLMs%20and%20Humans%20(Prabhav%20Singh%2C%20Haojun%20Shi%2C%20Jason%20Eisner))!
-- **September 2024**: Our paper which explores multimodality in emotion recogntion for MCI's has been accepted to ICMI'24 and is now [available](https://dl.acm.org/doi/10.1145/3678957.3689332)!
+- **Cheaper LLM Workflows**  
+  Recently, I've been exploring **cost-efficient annotation and evaluation** using LLMs. This includes applying ideas from *Value of Information* ([ref](https://arxiv.org/abs/2110.13973), [ref](https://dl.acm.org/doi/10.5555/2051237.2051240)) and **gradient-based heuristics** ([ref](https://arxiv.org/abs/2002.08484), [ref](https://arxiv.org/abs/2402.04333)) to accelerate decision-making in human-in-the-loop systems.
+
+- **Multimodal Learning for Language and Speech**  
+  I build models that integrate **speech, text, and vision** for tasks like **emotion recognition** ([example](https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf)) and **speaker diarization** ([example](https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf)). I’m especially interested in learning from **heterogeneous modalities** with minimal supervision.
+
+- **Structured Probabilistic Modeling**  
+  My work also explores **multitask learning**, **Bayesian inference**, and **temporal modeling**, with a focus on interpretable representations of linguistic structure.
+
+> 📝 See my [publications](https://Prabhav55221.github.io/publications) for more.
+
+---
+
+## 📢 recent updates
+
+- **🧪 June 2025**  
+  Starting my summer internship at a **stealth startup** in California — working on agentic workflows for document understanding in finance and retail.
+
+- **📄 May 2025**  
+  Two papers accepted at **INTERSPEECH 2025**! (See [this post](https://x.com/psingh522/status/1925354318988751117)). Excited to present in Rotterdam 🇳🇱!
+
+- **🏆 April 2025**  
+  Our poster on LLM + Human collaboration ([read here](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)) won **Best Poster** at [MASC-SLL 2025](https://www.mascsll.org/program/#:~:text=Active%20Learning%20and%20Feature%2DAcquisition%20with%20LLMs%20and%20Humans%20(Prabhav%20Singh%2C%20Haojun%20Shi%2C%20Jason%20Eisner)).
+
+- **📚 September 2024**  
+  Our **ICMI’24** paper on multimodal emotion recognition for **Mild Cognitive Impairment (MCI)** is now [available](https://dl.acm.org/doi/10.1145/3678957.3689332).
 
 <br>
 
