@@ -14,7 +14,7 @@ I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a s
 
 <br>
 
-You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `psingh at jhu dot edu`
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `psingh54 at jhu dot edu`
 
 > 💡 <span style="color:#990000;"><strong>I am actively seeking PhD positions for Fall 2026.</strong> If you are aware of openings or opportunities, I'd deeply appreciate hearing from you!</span>
 
@@ -22,7 +22,7 @@ You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhav
 
 ## my (ever-changing) research interests
 
-My broad interests are in the field of langauge modeling, speech representation and any combination of both that is helpful in solving a task. See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more, or read about my major research areas as of now below.
+My broad interests are in the field of langauge modeling, speech representation and any combination of both that is helpful in solving a task. See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more, or read about my major research areas (as of now) below (click on them to expand).
 
 <details>
 <summary><strong>Cheaper LLM + Human Workflows</strong>: Combining humans and LLMs in a pipeline that enables principled, cost-effective annotation and evaluation.</summary>
