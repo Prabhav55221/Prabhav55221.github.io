@@ -27,6 +27,88 @@ You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhav
 
 <br>
 
+<p>
+LLMs are increasingly employed as surrogate annotators and evaluators in NLP workflows. However, current practices often involve multiple heuristic decisions to design effective workflows. For example, choosing the appropriate subset to annotate — by LLMs or humans — remains a costly decision.
+</p>
+
+<p>
+Recently, I've been working on <strong>AnnotationArena</strong> — an end-to-end framework to streamline LLM-based evaluation and annotation. This includes:
+</p>
+
+<ul>
+  <li>Using <em>Value of Information</em> <a href="https://arxiv.org/abs/2110.13973">[1]</a>, <a href="https://dl.acm.org/doi/10.5555/2051237.2051240">[2]</a> for inference-time decision making.</li>
+  <li>Leveraging <em>gradient-based heuristics</em> <a href="https://arxiv.org/abs/2002.08484">[3]</a>, <a href="https://arxiv.org/abs/2402.04333">[4]</a> for active learning.</li>
+  <li>Exploring <strong>reinforcement learning</strong> and <strong>alignment techniques</strong> to enable adaptive, continuous annotation pipelines with principled decisions.</li>
+</ul>
+
+<p>
+I'm also interested in alternative labeling strategies such as <strong>ratings</strong>, <strong>rankings</strong>, and <strong>ordinal classifications</strong>.
+</p>
+
+</details>
+
+<hr>
+
+<details>
+<summary><strong>Multimodal Learning for Language and Speech</strong>: Fusing audio, text, and vision to solve tasks that are natural for humans — but hard for machines.</summary>
+
+<br>
+
+<p>
+I build models that integrate <strong>speech, text, and vision</strong> for tasks like:
+</p>
+
+<ul>
+  <li><strong>Emotion Recognition</strong> (<a href="https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf">example</a>)</li>
+  <li><strong>Speaker Diarization</strong> (<a href="https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf">example</a>)</li>
+</ul>
+
+<p>
+My models learn from <strong>heterogeneous modalities</strong> with <em>minimal supervision</em>. I began my research journey with emotion recognition, and while I’ve developed a fair amount of expertise in that space, I’m increasingly drawn to <strong>speaker recognition</strong> and <strong>diarization</strong>. I find diarization particularly interesting — it's a fundamental speech task with open challenges in <em>temporal structure, multimodal fusion, and low-resource adaptation</em>. My recent works are focused on improving diarization quality through multitask learning and adaptive fusion.
+</p>
+
+</details>
+
+<hr>
+
+<details>
+<summary><strong>ML Learning Theory / Replicability</strong>: Understanding how adaptive decisions affect replicability in transfer learning.</summary>
+
+<br>
+
+<p>
+Thanks to rigorous theory coursework at JHU, I’ve developed a strong interest in <strong>replicability theory</strong> — distinct from reproducibility.
+</p>
+
+<p>
+See <a href="https://arxiv.org/abs/2201.08430">[this]</a> and <a href="https://arxiv.org/abs/2305.15284">[this].</a>
+</p>
+
+<p>
+My current research focuses on:
+</p>
+
+<ul>
+  <li>Deriving <strong>replicability bounds</strong> for <strong>transfer learning</strong>.</li>
+  <li>Investigating how <strong>adaptive data selection</strong> affects transferability and stability of learned models.</li>
+</ul>
+
+<p>
+Read our ongoing manuscript: <a href="https://Prabhav55221.github.io/file/SensitivityOfSelectivity.pdf">Sensitivity of Selectivity in Transfer Learning</a> <em>(work-in-progress)</em>.
+</p>
+
+</details>
+
+<p><em>📝 See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more.</em></p>
+
+
+<!-- ## my (ever-changing) research interests
+
+<details open>
+<summary><strong>Cheaper LLM + Human Workflows</strong>: Combining humans and LLMs in a pipeline that enables principled, cost-effective annotation and evaluation.</summary>
+
+<br>
+
 LLMs are increasingly employed as surrogate annotators and evaluators in NLP workflows. However, current practices often involve multiple heuristic decisions to design effective workflows. For example, choosing the appropriate subset to annotate, either by LLMs or humans, remains a costly decision.
 
 Recently, I've been working on **AnnotationArena** — an end-to-end framework to streamline LLM-based evaluation and annotation. This includes:
@@ -78,7 +160,7 @@ See our draft manuscript: [Sensitivity of Selectivity in Transfer Learning](http
 
 ---
 
-> 📝 See my [publications](https://Prabhav55221.github.io/publications) for more.
+> 📝 See my [publications](https://Prabhav55221.github.io/publications) for more. -->
 
 ---
 
