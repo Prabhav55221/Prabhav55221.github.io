@@ -8,13 +8,13 @@ layout: page
 
 I'm **Prabhav Singh** *(pronounced **Prah-bav**)*.
 
-I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/).  
-I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/).
+<br>
 
-Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
+I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/). I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
 
-You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf).  
-Feel free to reach out at: `psingh at jhu dot edu`
+<br>
+
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `psingh at jhu dot edu`
 
 > 💡 <span style="color:#990000;"><strong>I am actively seeking PhD positions for Fall 2026.</strong> If you are aware of openings or opportunities, I'd deeply appreciate hearing from you!</span>
 
