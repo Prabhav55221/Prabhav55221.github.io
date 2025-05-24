@@ -6,7 +6,7 @@ title: Random Stuff
 
 # random stuff
 
-> 🌀 **TL;DR**: When I'm not doing ML research, I run 🏃‍♂️, play guitar 🎸, read books 📚, and obsessively align cables 🧹.
+> 🌀 **TL;DR**: When I'm not wrestling with PyTorch, I run, play the guitar and read books.
 
 ---
 
@@ -19,7 +19,7 @@ title: Random Stuff
 
 <br>
 
-I could run a marathon before but I can hardly run 10 KMs now (Yes, **KMs** and not miles). I try to once or twice every week, but these mostly end up being short 5K runs. For a 5K run, I time at 5:30 on average (sorry for the folks following this in the US <span style="color: #db3e75; font-style: italic;">(read: wrong)</span> system of measurement).  
+I could run a marathon before but I can hardly run 10 KMs now. I try to once or twice every week, but these mostly end up being short 5K runs. For a 5K run, I time at 5:30 minutes/KM on average (sorry for the folks following this in the US <span style="color: #db3e75; font-style: italic;">(read: wrong)</span> system of measurement).  
 **JHU is an amazing place to run** in general — the scenery never disappoints!
 
 ---
