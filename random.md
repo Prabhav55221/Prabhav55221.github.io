@@ -24,8 +24,16 @@ Sadly this has turned to reading papers instead of books, but I did boast of a b
 
 Current books on my reading list:
 
-> The Dharma of Unfaithful Wives and Faithful Jackals by Wendy Dongier.
-> Small Missions for Energetic Astrophysics by many authors.
+- The Dharma of Unfaithful Wives and Faithful Jackals by Wendy Dongier.
+- Small Missions for Energetic Astrophysics by many authors.
+- The Power of Babel by Guy Deutscher
+- Gödel, Escher, Bach by Douglas Hofstadter
+
+Some of all time favorite books on Astrophysics (a subject I love to read about) are:
+
+- Hyperspace by Michio Kaku
+- Flatland by Edwin Abbott
+- Surely You're Joking, Mr. Feynman! by Richard Feynman
 
 <br><br>
 
