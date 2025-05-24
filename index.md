@@ -2,11 +2,11 @@
 layout: page
 ---
 
-# About Me
+# hello!
 
 <img src="https://Prabhav55221.github.io/profile.png" class="floatpic">
 
-Hi! I'm **Prabhav Singh (pronounced Prah-bav)**.<br><br>
+I'm **Prabhav Singh (pronounced Prah-bav)**.<br><br>
 
 I am currently pursuing my Master's in CS (Thesis) with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) from [JHU](https://engineering.jhu.edu). I am doing my graduate research at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) where I am fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) & [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). <br>
 
@@ -18,7 +18,7 @@ You can find all the boring stuff in my [CV](https://Prabhav55221.github.io/file
 
 ---
 
-## Research Interests
+## my (ever-changing) research interests
 
 - **Cheaper LLM Workflows**- Most recently, I have been working to develop better and cheaper annotation and evaluation frameworks that make use of LLMs. This involves invoking concepts of Value of Information ([See this](https://arxiv.org/abs/2110.13973) or [this](https://dl.acm.org/doi/10.5555/2051237.2051240)), Gradient based strategies ([See this](https://arxiv.org/abs/2002.08484) and [this](https://arxiv.org/abs/2402.04333)) for faster VOI, active learning and more.
 - **Multimodal Learning for Language and Speech** - I design models that fuse information from speech, text, and visual cues, targeting tasks such as emotion recognition ([like my papers here](https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf)) and speaker diarization ([like this one](https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf)). I’m especially interested in building systems that reason over heterogeneous modalities with minimal supervision.
@@ -28,7 +28,7 @@ See my [papers](https://Prabhav55221.github.io/publications) for more detail.
 
 ---
 
-## News and Updates
+## updates!
 
 - **June 2025**: Starting my summer internship at a ```stealth startup``` in California. I will mostly be working with agentic workflows for document processing and understanding in the financial and retail space.
 - **May 2025**: Two papers accepted to Interspeech 2025 (See my [X post](https://x.com/psingh522/status/1925354318988751117) for more details). Will share arXiv links once we get the camera ready version up. See you in Rotterdam!
