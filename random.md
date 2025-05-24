@@ -28,15 +28,15 @@ I could run a marathon before but I can hardly run 10 KMs now (Yes, **KMs** and 
 
 Sadly this has turned to reading papers instead of books, but I did boast of a big library at my home in India (my brother has asserted control of all books now that I am in US). See a photo of some of the books I had here (and don't judge me for my collection of Wimpy Kids - I had a happy childhood).
 
-<img src="https://Prabhav55221.github.io/images/library.png" alt="Book shelf from India" style="width: 40%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+<img src="https://Prabhav55221.github.io/images/library.png" alt="Book shelf from India" style="width: 40%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); margin: 20px;">
 
-**Current books on my reading list**:
+Current books on my reading list:
   - **The Dharma of Unfaithful Wives and Faithful Jackals** by Wendy Dongier  
   - **Small Missions for Energetic Astrophysics** by many authors  
   - **The Power of Babel** by Guy Deutscher  
   - **Gödel, Escher, Bach** by Douglas Hofstadter
 
-**Some all-time favorite books on Astrophysics**:
+Some all-time favorite books**
   - **Hyperspace** by Michio Kaku  
   - **Flatland** by Edwin Abbott  
   - **Surely You're Joking, Mr. Feynman!** by Richard Feynman
