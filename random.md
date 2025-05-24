@@ -30,16 +30,16 @@ Sadly this has turned to reading papers instead of books, but I did boast of a b
 
 <img src="https://Prabhav55221.github.io/images/library.png" alt="Book shelf from India" style="width: 40%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); margin: 20px;">
 
-Current books on my reading list:
-  - **The Dharma of Unfaithful Wives and Faithful Jackals** by Wendy Dongier  
-  - **Small Missions for Energetic Astrophysics** by many authors  
-  - **The Power of Babel** by Guy Deutscher  
-  - **Gödel, Escher, Bach** by Douglas Hofstadter
+> Current books on my reading list:
+>  - **The Dharma of Unfaithful Wives and Faithful Jackals** by Wendy Dongier  
+>  - **Small Missions for Energetic Astrophysics** by many authors  
+>  - **The Power of Babel** by Guy Deutscher  
+>  - **Gödel, Escher, Bach** by Douglas Hofstadter
 
-Some all-time favorite books**
-  - **Hyperspace** by Michio Kaku  
-  - **Flatland** by Edwin Abbott  
-  - **Surely You're Joking, Mr. Feynman!** by Richard Feynman
+> Some all-time favorite books:
+>  - **Hyperspace** by Michio Kaku  
+>  - **Flatland** by Edwin Abbott  
+>  - **Surely You're Joking, Mr. Feynman!** by Richard Feynman
 
 ---
 
