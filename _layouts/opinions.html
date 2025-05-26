@@ -18,241 +18,107 @@
   gtag('config', 'G-T5N5JY1E21');
 </script>
 
+<!-- MathJax for LaTeX rendering -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
+
 <style>
-.opinion-header {
-  background: #f8f8f8;
-  border-bottom: 1px solid #ddd;
-  padding: 2rem 0;
-  margin-bottom: 2rem;
-}
-
-.opinion-header .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.opinion-meta-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
+.opinion-meta {
+  font-family: monospace;
   font-size: 0.9rem;
   color: #666;
-}
-
-.opinion-date {
-  font-family: monospace;
-  border: 1px solid #ccc;
-  padding: 4px 8px;
-  background: white;
-}
-
-.opinion-topic-header {
-  border: 1px solid #ccc;
-  padding: 4px 8px;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  background: white;
-}
-
-.opinion-title-header {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  line-height: 1.3;
-  color: #333;
-  font-weight: bold;
-}
-
-.paper-info {
-  background: #f0f0f0;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-left: 2px solid #333;
-}
-
-.paper-info strong {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.paper-info a {
-  color: #333;
-  text-decoration: underline;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
 }
 
 .opinion-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 2rem;
-  line-height: 1.7;
+  line-height: 1.6;
   font-size: 1rem;
 }
 
+.opinion-content h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .opinion-content h2 {
-  color: #333;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .opinion-content h3 {
-  color: #333;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.opinion-content blockquote {
-  border-left: 2px solid #333;
-  padding-left: 1.5rem;
-  margin: 1.5rem 0;
-  font-style: italic;
-  color: #666;
+.paper-info {
   background: #f8f8f8;
-  padding: 1rem 1.5rem;
-}
-
-.opinion-tags-section {
-  max-width: 800px;
-  margin: 3rem auto 0;
-  padding: 0 2rem;
-  border-top: 1px solid #ddd;
-  padding-top: 2rem;
-}
-
-.opinion-tags {
-  margin-bottom: 2rem;
-}
-
-.tag {
-  display: inline-block;
-  background: #f0f0f0;
-  color: #333;
-  padding: 4px 8px;
-  font-size: 0.8rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-  border: 1px solid #ccc;
-}
-
-.tag:hover {
-  background: #333;
-  color: white;
-}
-
-.opinion-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3rem;
-  padding: 1.5rem;
-  background: #f8f8f8;
-  border: 1px solid #ddd;
-}
-
-.nav-link {
-  color: #333;
-  text-decoration: none;
-  font-weight: normal;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.back-to-opinions {
-  text-align: center;
+  padding: 1rem;
   margin: 2rem 0;
-}
-
-.back-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #333;
-  text-decoration: none;
-  font-weight: normal;
-  padding: 8px 16px;
-  border: 1px solid #333;
-  background: white;
-}
-
-.back-btn:hover {
-  background: #333;
-  color: white;
+  font-style: italic;
+  border-left: 2px solid #333;
 }
 
 .share-section {
+  margin: 3rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #eee;
   text-align: center;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  background: #f8f8f8;
-  border: 1px solid #ddd;
 }
 
 .share-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
   margin-top: 1rem;
 }
 
 .share-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
+  display: inline-block;
   padding: 8px 16px;
+  margin: 0 0.5rem;
   text-decoration: none;
   color: white;
   font-size: 0.9rem;
-  font-weight: normal;
 }
 
-.share-twitter { 
-  background: #1da1f2; 
-  border: 1px solid #1da1f2;
+.share-twitter { background: #1da1f2; }
+.share-linkedin { background: #0077b5; }
+
+.back-link {
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
 }
 
-.share-linkedin { 
-  background: #0077b5; 
-  border: 1px solid #0077b5;
+.back-link a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #333;
+}
+
+.back-link a:hover {
+  background: #333;
+  color: white;
 }
 
 @media (max-width: 768px) {
-  .opinion-title-header {
-    font-size: 1.5rem;
-  }
-  
   .opinion-content {
     padding: 0 1rem;
-  }
-  
-  .opinion-header .container {
-    padding: 0 1rem;
-  }
-  
-  .opinion-meta-header {
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .opinion-navigation {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-  }
-  
-  .share-buttons {
-    flex-direction: column;
-    align-items: center;
   }
 }
 </style>
@@ -263,78 +129,37 @@
 {% include chrome-frame.html %}
 {% include navigation.html %}
 
-<div class="opinion-header">
-  <div class="container">
-    <div class="opinion-meta-header">
-      <time class="opinion-date" datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%B %d, %Y" }}
-      </time>
-      <span class="opinion-topic-header">{{ page.topic }}</span>
-    </div>
-    
-    <h1 class="opinion-title-header" itemprop="headline">{{ page.title }}</h1>
-    
-    {% if page.paper_title %}
-    <div class="paper-info">
-      <strong>📄 Paper: "{{ page.paper_title }}"</strong>
-      {% if page.paper_authors %}<div><em>{{ page.paper_authors }}</em></div>{% endif %}
-      {% if page.paper_url %}<div><a href="{{ page.paper_url }}" target="_blank" style="color: rgba(255,255,255,0.9);">Read Paper →</a></div>{% endif %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
 <div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="opinion-content" itemscope itemtype="http://schema.org/BlogPosting">
-    {{ content }}
-  </article>
-  
-  <div class="opinion-tags-section">
-    {% if page.tags %}
-    <div class="opinion-tags">
-      <h3>Tags:</h3>
-      {% for tag in page.tags %}
-      <a href="{{ site.url }}/opinions#{{ tag | slugify }}" class="tag">{{ tag }}</a>
-      {% endfor %}
+  <div class="opinion-content">
+    <div class="opinion-meta">
+      {{ page.date | date: "%Y-%m-%d" }}
+      {% if page.topic %} | {{ page.topic }}{% endif %}
+      {% if page.paper_title %}
+      <div class="paper-info">
+        <strong>Paper:</strong> {{ page.paper_title }}
+        {% if page.paper_authors %}<br>{{ page.paper_authors }}{% endif %}
+        {% if page.paper_url %}<br><a href="{{ page.paper_url }}" target="_blank">Read Paper</a>{% endif %}
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
+    
+    <h1>{{ page.title }}</h1>
+    
+    <article>
+      {{ content }}
+    </article>
     
     <div class="share-section">
-      <h3>Share This Opinion</h3>
       <div class="share-buttons">
         <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via=psingh522" 
-           class="share-btn share-twitter" target="_blank">
-          Twitter
-        </a>
+           class="share-btn share-twitter" target="_blank">Share on Twitter</a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" 
-           class="share-btn share-linkedin" target="_blank">
-          LinkedIn
-        </a>
+           class="share-btn share-linkedin" target="_blank">Share on LinkedIn</a>
       </div>
     </div>
     
-    <div class="back-to-opinions">
-      <a href="{{ site.url }}/opinions" class="back-btn">
-        ← Back to All Opinions
-      </a>
-    </div>
-    
-    <div class="opinion-navigation">
-      {% if page.previous %}
-      <a href="{{ site.url }}{{ page.previous.url }}" class="nav-link">
-        ← {{ page.previous.title | truncate: 30 }}
-      </a>
-      {% else %}
-      <span></span>
-      {% endif %}
-      
-      {% if page.next %}
-      <a href="{{ site.url }}{{ page.next.url }}" class="nav-link">
-        {{ page.next.title | truncate: 30 }} →
-      </a>
-      {% else %}
-      <span></span>
-      {% endif %}
+    <div class="back-link">
+      <a href="{{ site.url }}/opinions">← Back to All Opinions</a>
     </div>
   </div>
 </div>
