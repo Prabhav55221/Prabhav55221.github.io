@@ -46,8 +46,8 @@ title: Some Opinions
 
 #opinion-search {
   width: 100%;
-  max-width: 400px;
-  padding: 8px 12px;
+  max-width: 600px;
+  padding: 10px 16px;
   font-size: 1rem;
   border: 1px solid #ddd;
   font-family: monospace;
@@ -55,6 +55,10 @@ title: Some Opinions
 
 .opinions-list {
   margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
 }
 
 .opinion-item {
@@ -115,6 +119,10 @@ title: Some Opinions
   
   .opinion-item h3 {
     font-size: 1.1rem;
+  }
+  
+  .opinions-list {
+    padding: 0 1rem;
   }
 }
 </style>
