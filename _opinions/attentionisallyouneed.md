@@ -1,5 +1,5 @@
 ---
-layout: opinion
+layout: opinions
 title: "Attention Is Still All You Need (But Maybe We're Using It Wrong)"
 date: 2025-05-26
 topic: "NLP"
