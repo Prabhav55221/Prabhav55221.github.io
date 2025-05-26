@@ -5,32 +5,23 @@ title: Research Opinions
 ---
 
 <div class="opinions-header">
-  <h1>Research Opinions</h1>
-  <p>Daily thoughts on papers, ideas, and the state of NLP/Speech research. A living collection of hot takes, cold analyses, and everything in between.</p>
+  <h1>Some Opinions</h1>
+  <p>Mostly a scratch space for me to force the habit of reading papers. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be!</p>
 </div>
 
 <div class="search-container">
   <input type="text" id="opinion-search" placeholder="Search opinions by title, topic, or keyword..." />
   <div class="filter-tags">
     <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="nlp">NLP</button>
+    <button class="filter-btn" data-filter="language">NLP</button>
     <button class="filter-btn" data-filter="speech">Speech</button>
     <button class="filter-btn" data-filter="multimodal">Multimodal</button>
     <button class="filter-btn" data-filter="theory">Theory</button>
-    <button class="filter-btn" data-filter="hot-take">Hot Takes</button>
+    <button class="filter-btn" data-filter="random-takes">Random Takes</button>
   </div>
 </div>
 
-<div class="opinions-stats">
-  <div class="stat">
-    <span class="stat-number" id="total-opinions">{{ site.opinions.size }}</span>
-    <span class="stat-label">Total Opinions</span>
-  </div>
-  <div class="stat">
-    <span class="stat-number">{{ site.opinions | group_by: 'topic' | size }}</span>
-    <span class="stat-label">Topics Covered</span>
-  </div>
-</div>
+
 
 <div class="opinions-grid" id="opinions-container">
   {% assign sorted_opinions = site.opinions | sort: 'date' | reverse %}
@@ -76,22 +67,24 @@ title: Research Opinions
 .opinions-header {
   text-align: center;
   margin-bottom: 2rem;
-  padding: 2rem 0;
-  border-bottom: 2px solid #db3e75;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #333;
 }
 
 .opinions-header h1 {
-  color: #db3e75;
+  color: #333;
   margin-bottom: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 .opinions-header p {
   color: #666;
-  font-size: 1.1rem;
+  font-size: 1rem;
   max-width: 600px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-style: italic;
 }
 
 .search-container {
@@ -102,16 +95,15 @@ title: Research Opinions
 #opinion-search {
   width: 100%;
   max-width: 500px;
-  padding: 12px 20px;
+  padding: 8px 12px;
   font-size: 1rem;
-  border: 2px solid #ddd;
-  border-radius: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   outline: none;
-  transition: border-color 0.3s ease;
 }
 
 #opinion-search:focus {
-  border-color: #db3e75;
+  border-color: #333;
 }
 
 .filter-tags {
@@ -123,68 +115,31 @@ title: Research Opinions
 }
 
 .filter-btn {
-  padding: 8px 16px;
-  background: #f8f9fa;
-  border: 1px solid #ddd;
-  border-radius: 20px;
+  padding: 6px 12px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s ease;
   font-size: 0.9rem;
+  color: #333;
 }
 
 .filter-btn:hover, .filter-btn.active {
-  background: #db3e75;
+  background: #333;
   color: white;
-  border-color: #db3e75;
-}
-
-.opinions-stats {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin-bottom: 3rem;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 10px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-number {
-  display: block;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #db3e75;
-}
-
-.stat-label {
-  font-size: 0.9rem;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  border-color: #333;
 }
 
 .opinions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
+  display: block;
   margin-top: 2rem;
 }
 
 .opinion-card {
   background: white;
-  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 2rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 4px solid #db3e75;
-}
-
-.opinion-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .opinion-meta {
@@ -192,26 +147,21 @@ title: Research Opinions
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 .opinion-date {
-  color: #666;
-  font-size: 0.9rem;
+  font-family: monospace;
 }
 
 .opinion-topic {
-  padding: 4px 8px;
-  border-radius: 12px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
   font-size: 0.8rem;
-  font-weight: bold;
   text-transform: uppercase;
+  background: #f8f8f8;
 }
-
-.topic-nlp { background: #e3f2fd; color: #1976d2; }
-.topic-speech { background: #f3e5f5; color: #7b1fa2; }
-.topic-multimodal { background: #e8f5e8; color: #388e3c; }
-.topic-theory { background: #fff3e0; color: #f57c00; }
-.topic-hot-take { background: #ffebee; color: #d32f2f; }
 
 .opinion-title {
   margin-bottom: 0.75rem;
@@ -220,28 +170,26 @@ title: Research Opinions
 .opinion-title a {
   color: #333;
   text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.3;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .opinion-title a:hover {
-  color: #db3e75;
+  text-decoration: underline;
 }
 
 .opinion-preview {
   color: #666;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
 .paper-reference {
-  background: #f8f9fa;
+  background: #f8f8f8;
   padding: 0.75rem;
-  border-radius: 6px;
   margin-bottom: 1rem;
   font-size: 0.9rem;
-  border-left: 3px solid #db3e75;
+  border-left: 2px solid #333;
 }
 
 .opinion-tags {
@@ -250,13 +198,13 @@ title: Research Opinions
 
 .tag {
   display: inline-block;
-  background: #e9ecef;
-  color: #495057;
-  padding: 3px 8px;
-  border-radius: 12px;
+  background: #f0f0f0;
+  color: #333;
+  padding: 2px 6px;
   font-size: 0.8rem;
   margin-right: 0.5rem;
   margin-bottom: 0.25rem;
+  border: 1px solid #ccc;
 }
 
 .opinion-footer {
@@ -268,9 +216,9 @@ title: Research Opinions
 }
 
 .read-more {
-  color: #db3e75;
+  color: #333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 0.9rem;
 }
 
@@ -281,6 +229,7 @@ title: Research Opinions
 .reading-time {
   color: #999;
   font-size: 0.8rem;
+  font-family: monospace;
 }
 
 @media (max-width: 768px) {
@@ -356,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Update stats
-    document.getElementById('total-opinions').textContent = visibleCount;
+    // Removed stats counter as requested
   }
   
   // Animation on scroll
