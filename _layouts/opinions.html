@@ -1,0 +1,341 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+{% include head.html %}
+
+<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-T5N5JY1E21');
+</script>
+
+<style>
+.opinion-header {
+  background: linear-gradient(135deg, #db3e75 0%, #a91e4a 100%);
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.opinion-header .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.opinion-meta-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.opinion-date {
+  background: rgba(255,255,255,0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.opinion-topic-header {
+  background: rgba(255,255,255,0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.opinion-title-header {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.paper-info {
+  background: rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.paper-info strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.opinion-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.opinion-content h2 {
+  color: #db3e75;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.opinion-content h3 {
+  color: #666;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.opinion-content blockquote {
+  border-left: 4px solid #db3e75;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #666;
+  background: #f8f9fa;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.opinion-tags-section {
+  max-width: 800px;
+  margin: 3rem auto 0;
+  padding: 0 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+
+.opinion-tags {
+  margin-bottom: 2rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #e9ecef;
+  color: #495057;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background: #db3e75;
+  color: white;
+}
+
+.opinion-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: #db3e75;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.back-to-opinions {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #db3e75;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #db3e75;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #db3e75;
+  color: white;
+}
+
+.share-section {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.share-twitter { background: #1da1f2; }
+.share-linkedin { background: #0077b5; }
+.share-reddit { background: #ff4500; }
+
+@media (max-width: 768px) {
+  .opinion-title-header {
+    font-size: 2rem;
+  }
+  
+  .opinion-content {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .opinion-header .container {
+    padding: 0 1rem;
+  }
+  
+  .opinion-meta-header {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .opinion-navigation {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .share-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+</head>
+
+<body class="opinion-post" itemscope itemtype="http://schema.org/WebPage">
+
+{% include chrome-frame.html %}
+{% include navigation.html %}
+
+<div class="opinion-header">
+  <div class="container">
+    <div class="opinion-meta-header">
+      <time class="opinion-date" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      <span class="opinion-topic-header">{{ page.topic }}</span>
+    </div>
+    
+    <h1 class="opinion-title-header" itemprop="headline">{{ page.title }}</h1>
+    
+    {% if page.paper_title %}
+    <div class="paper-info">
+      <strong>📄 Paper: "{{ page.paper_title }}"</strong>
+      {% if page.paper_authors %}<div><em>{{ page.paper_authors }}</em></div>{% endif %}
+      {% if page.paper_url %}<div><a href="{{ page.paper_url }}" target="_blank" style="color: rgba(255,255,255,0.9);">Read Paper →</a></div>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="opinion-content" itemscope itemtype="http://schema.org/BlogPosting">
+    {{ content }}
+  </article>
+  
+  <div class="opinion-tags-section">
+    {% if page.tags %}
+    <div class="opinion-tags">
+      <h3>Tags:</h3>
+      {% for tag in page.tags %}
+      <a href="{{ site.url }}/opinions#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    
+    <div class="share-section">
+      <h3>Share This Opinion</h3>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via=psingh522" 
+           class="share-btn share-twitter" target="_blank">
+          🐦 Twitter
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" 
+           class="share-btn share-linkedin" target="_blank">
+          💼 LinkedIn
+        </a>
+        <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" 
+           class="share-btn share-reddit" target="_blank">
+          🤖 Reddit
+        </a>
+      </div>
+    </div>
+    
+    <div class="back-to-opinions">
+      <a href="{{ site.url }}/opinions" class="back-btn">
+        ← Back to All Opinions
+      </a>
+    </div>
+    
+    <div class="opinion-navigation">
+      {% if page.previous %}
+      <a href="{{ site.url }}{{ page.previous.url }}" class="nav-link">
+        ← {{ page.previous.title | truncate: 30 }}
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %}
+      
+      {% if page.next %}
+      <a href="{{ site.url }}{{ page.next.url }}" class="nav-link">
+        {{ page.next.title | truncate: 30 }} →
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="footer-wrap">
+  <footer>
+    {% include footer.html %}
+  </footer>
+</div>
+
+{% include scripts.html %}
+
+</body>
+</html>

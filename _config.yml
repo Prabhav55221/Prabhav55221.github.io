@@ -1,3 +1,4 @@
+# Updated _config.yml - Clean version
 title: Prabhav Singh
 url: https://Prabhav55221.github.io
 
@@ -11,51 +12,26 @@ owner:
   github: Prabhav55221
   linkedin: prabhavsingh
   scholar: https://scholar.google.co.uk/citations?user=NiUjxAwAAAAJ&hl=en
-  # researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  # zhihu: https://www.zhihu.com/people/chlire
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
-
-# Analytics and webmaster tools stuff goes here
-# https://search.google.com/search-console/ownership
-# google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify: ""
+  # bio: "PhD-bound researcher in NLP and speech processing. Currently MS in CS at Johns Hopkins University."
 
 # Links to include in top navigation
-# For external links add external: true
 links:
   - title: About Me
     url: /
   - title: Publications
     url: /publications/
-  # - title: Opinions
-  #   url: /opinions/
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: Startups
-    # url: /startups/
+  - title: Opinions
+    url: /opinions/
   - title: Random Stuff
     url: /random/
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Site settings
 timezone: America/New_York
 future: true
 highlighter: rouge
-# markdown: kramdown
-# markdown: redcarpet
-# pygments: true
+permalink: /:categories/:title
 
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-
+# Kramdown settings
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -63,19 +39,24 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
-
-# disqus settings:
+# Comments (updated for your site)
 disqus:
-  shortname: lancecai
+  shortname: prabhavsingh
 
+# Build settings
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "README.md"]
 
-# Latest update in 2023/12/10 by Hanlin Cai.
+# Collections for opinions
+collections:
+  opinions:
+    output: true
+    permalink: /opinions/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "opinions"
+    values:
+      layout: "opinion"
