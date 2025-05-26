@@ -6,7 +6,7 @@ layout: page
 
 <img src="https://Prabhav55221.github.io/profile.png" class="floatpic">
 
-I'm **Prabhav Singh** *(pronounced **Prah-bav**)*.
+I'm **Prabhav Singh** *(pronounced **Pruh-bhav**)*.
 
 <br>
 
