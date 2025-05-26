@@ -46,11 +46,20 @@ window.MathJax = {
 }
 
 .opinion-content {
-  max-width: 800px;
+  /* max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
   line-height: 1.7;
+  font-size: 1rem; */
+  max-width: 1100px;          /* or 65ch if you prefer character units */
+  width: calc(100% - 4rem);   /* 2 rem padding on each side            */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+  line-height: 1.7;
   font-size: 1rem;
+  /* make absolutely sure nothing is making it float left */
+  float: none;
 }
 
 .opinion-content h1 {
