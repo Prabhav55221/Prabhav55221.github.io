@@ -40,6 +40,11 @@ window.MathJax = {
   padding-bottom: 1rem;
 }
 
+#main {
+  width: 100%;
+  clear: both;
+}
+
 .opinion-content {
   max-width: 800px;
   margin: 0 auto;
@@ -68,6 +73,12 @@ window.MathJax = {
   font-weight: bold;
 }
 
+.opinion-content article {
+  width: 100%;
+  clear: both;
+  margin-bottom: 2rem;
+}
+
 .paper-info {
   background: #f8f8f8;
   padding: 1rem;
@@ -77,11 +88,12 @@ window.MathJax = {
 }
 
 .share-section {
-  margin: 3rem auto;
+  margin: 3rem auto 2rem;
   padding: 1.5rem;
   border-top: 1px solid #eee;
   text-align: center;
   max-width: 800px;
+  clear: both;
 }
 
 .share-buttons {
@@ -94,7 +106,6 @@ window.MathJax = {
 .share-btn {
   display: inline-block;
   padding: 8px 16px;
-  margin: 0 0.5rem;
   text-decoration: none;
   color: white;
   font-size: 0.9rem;
@@ -105,8 +116,9 @@ window.MathJax = {
 
 .back-link {
   display: block;
-  margin: 2rem 0;
+  margin: 2rem auto;
   text-align: center;
+  max-width: 800px;
 }
 
 .back-link a {
@@ -124,6 +136,20 @@ window.MathJax = {
 @media (max-width: 768px) {
   .opinion-content {
     padding: 0 1rem;
+  }
+  
+  .share-section {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+  
+  .share-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .back-link {
+    margin: 2rem 1rem;
   }
 }
 </style>
