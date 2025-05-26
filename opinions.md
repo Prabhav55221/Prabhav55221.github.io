@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /opinions/index.html
-title: Research Opinions
+title: Some Opinions
 ---
 
-# Research Opinions
+# Some Opinions
 
-*Mostly a scratch space for me to force the habit of reading papers. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be!*
+*Mostly a scratch space for me to force the habit of reading papers. I will try to populate this with my thought (note - best read on a laptop) on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be!*
 
 ---
 
