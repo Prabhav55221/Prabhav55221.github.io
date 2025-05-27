@@ -1,5 +1,5 @@
 ---
-layout: opinions
+layout: notes
 title: "Gradient Clustering = Entropy based Active Learning?"
 date: 2025-05-26
 topic: "NLP"

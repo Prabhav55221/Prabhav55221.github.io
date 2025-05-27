@@ -1,17 +1,17 @@
 ---
 layout: page
-permalink: /opinions/index.html
-title: Some Opinions
+permalink: /notes/index.html
+title: Notes
 ---
 
 # Some Opinions
 
-*Mostly a scratch space for me to force the habit of reading papers. I will try to populate this with my thought (note - best read on a laptop) on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be!*
+*Mostly a scratch space for me. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be! Best read on a laptop!*
 
 ---
 
 <div class="search-container">
-  <input type="text" id="opinion-search" placeholder="Search opinions..." />
+  <input type="text" id="opinion-search" placeholder="Keywords: NLP, Speech, Thoughts" />
 </div>
 
 <div class="opinions-list" id="opinions-container">
