@@ -47,16 +47,16 @@ disqus:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "README.md"]
 
-# Collections for opinions
+# Collections for notes
 collections:
-  opinions:
+  notes:
     output: true
-    permalink: /opinions/:title/
+    permalink: /notes/:title/
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "opinions"
+      type: "notes"
     values:
-      layout: "opinion"
+      layout: "notes"
