@@ -72,10 +72,11 @@ See Section 3 in the paper to understand a bit more on how this basic idea exten
 
 ## Applications to Active Learning
 
-Now the same idea is very applicable to active learning - which isn't explored in the paper directly since the focus is strongly on instruction tuning. One very obvois way in which it could be used in active learning is represented in the BADGE paper [[4]](https://arxiv.org/abs/1906.03671). The paper method states: `Batch Active learning by Diverse Gradient Embeddings (BADGE), samples
-groups of points that are disparate and high magnitude when represented in a hallucinated
-gradient space, a strategy designed to incorporate both predictive uncertainty and sample
-diversity into every selected batch.` The idea is simple:
+Now the same idea is very applicable to active learning - which isn't explored in the paper directly since the focus is strongly on instruction tuning. One very obvois way in which it could be used in active learning is represented in the BADGE paper [[4]](https://arxiv.org/abs/1906.03671). The paper method states: 
+
+> Batch Active learning by Diverse Gradient Embeddings (BADGE), samples groups of points that are disparate and high magnitude when represented in a hallucinated gradient space, a strategy designed to incorporate both predictive uncertainty and sample diversity into every selected batch.
+
+The idea is simple:
 
 1. **Hallucinate labels**: For each unlabeled point, predict what the model *would* label it as (its most likely class).
 2. **Compute gradient embeddings**: Treat this prediction as true, and compute the gradient of the loss with respect to the model’s final layer — this gives a *pseudo* update direction if we were to train on this point.
@@ -95,11 +96,13 @@ Further, I compare this method with something we are working in AnnotationArena 
 Results? Diversity is not that big of a factor when it comes to actually reducing a task loss - In our case the task is to reduce loss on a certain target variable (I won't go into the details, but the variables are ratings of LLM generated stories by other LLMs and Humans). Turns out at a more granular levels, these gradients can be clustered in a more principled manner. Here are the plots:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
-  <img src="https://Prabhav55221.github.io/images/opinion_images/badge_comparision.png" alt="Morning run at JHU" style="width: 50%">
-  <img src="https://Prabhav55221.github.io/images/opinion_images/diversity_score.png" alt="Night run at JHU" style="width: 50%">
+  <img src="https://Prabhav55221.github.io/images/opinion_images/badge_comparison.png" alt="Morning run at JHU" style="width: 45%">
+  <img src="https://Prabhav55221.github.io/images/opinion_images/diversity_score.png" alt="Night run at JHU" style="width: 45%">
 </div>
 
+<br>
 We can also see the selection process with T-SNE:
+<br><br>
 
 ![Alt Text](https://Prabhav55221.github.io/images/opinion_images/gif_vis.gif)
 
