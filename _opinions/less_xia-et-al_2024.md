@@ -95,10 +95,11 @@ Further, I compare this method with something we are working in AnnotationArena 
 
 Results? Diversity is not that big of a factor when it comes to actually reducing a task loss - In our case the task is to reduce loss on a certain target variable (I won't go into the details, but the variables are ratings of LLM generated stories by other LLMs and Humans). Turns out at a more granular levels, these gradients can be clustered in a more principled manner. Here are the plots:
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
-  <img src="https://Prabhav55221.github.io/images/opinion_images/badge_comparison.png" alt="Morning run at JHU" style="width: 45%">
-  <img src="https://Prabhav55221.github.io/images/opinion_images/diversity_score.png" alt="Night run at JHU" style="width: 45%">
-</div>
+<p align="center">
+  <img alt="Light" src="https://Prabhav55221.github.io/images/opinion_images/badge_comparison.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://Prabhav55221.github.io/images/opinion_images/diversity_score.png" width="45%">
+</p>
 
 <br>
 We can also see the selection process with T-SNE:
