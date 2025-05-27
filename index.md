@@ -79,7 +79,7 @@ My models learn from <strong>heterogeneous modalities</strong> with <em>minimal 
 <br>
 
 <p>
-Thanks to rigorous theory coursework at JHU (<a href="https://jess-sorrell.github.io/Courses/Replicable-ML/main.html">this</a>), I’ve developed a strong interest in <strong>replicability theory</strong> — distinct from reproducibility (See <a href="https://arxiv.org/abs/2201.08430">[this]</a> and <a href="https://arxiv.org/abs/2305.15284">[this]).
+Thanks to rigorous theory coursework at JHU (<a href="https://jess-sorrell.github.io/Courses/Replicable-ML/main.html">this</a>), I’ve developed a strong interest in <strong>replicability theory</strong> — distinct from reproducibility (See <a href="https://arxiv.org/abs/2201.08430">[this]</a> and <a href="https://arxiv.org/abs/2305.15284">[this]</a>).
 </p>
 
 <p>
