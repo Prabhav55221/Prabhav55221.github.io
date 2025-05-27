@@ -4,36 +4,36 @@ permalink: /notes/index.html
 title: Notes
 ---
 
-# Some Opinions
+# Notes
 
 *Mostly a scratch space for me. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be! Best read on a laptop!*
 
 ---
 
 <div class="search-container">
-  <input type="text" id="opinion-search" placeholder="Keywords: NLP, Speech, Thoughts" />
+  <input type="text" id="notes-search" placeholder="Keywords: NLP, Speech, Thoughts" />
 </div>
 
-<div class="opinions-list" id="opinions-container">
+<div class="notes-list" id="notes-container">
   {% assign sorted_opinions = site.notes | sort: 'date' | reverse %}
-  {% for opinion in sorted_opinions %}
-  <div class="opinion-item" data-content="{{ opinion.title | downcase }} {{ opinion.content | strip_html | downcase }}">
-    <div class="opinion-meta">
-      <span class="opinion-date">{{ opinion.date | date: "%Y-%m-%d" }}</span>
-      {% if opinion.topic %}<span class="opinion-topic">[{{ opinion.topic }}]</span>{% endif %}
+  {% for notes in sorted_opinions %}
+  <div class="notes-item" data-content="{{ notes.title | downcase }} {{ notes.content | strip_html | downcase }}">
+    <div class="notes-meta">
+      <span class="notes-date">{{ notes.date | date: "%Y-%m-%d" }}</span>
+      {% if notes.topic %}<span class="notes-topic">[{{ notes.topic }}]</span>{% endif %}
     </div>
     
-    <h3><a href="{{ site.url }}{{ opinion.url }}">{{ opinion.title }}</a></h3>
+    <h3><a href="{{ site.url }}{{ notes.url }}">{{ notes.title }}</a></h3>
     
-    {% if opinion.paper_title %}
+    {% if notes.paper_title %}
     <div class="paper-ref">
-      <strong>Paper:</strong> {{ opinion.paper_title }}
-      {% if opinion.paper_authors %} — {{ opinion.paper_authors }}{% endif %}
+      <strong>Paper:</strong> {{ notes.paper_title }}
+      {% if notes.paper_authors %} — {{ notes.paper_authors }}{% endif %}
     </div>
     {% endif %}
     
-    <div class="opinion-excerpt">
-      {{ opinion.excerpt | strip_html | truncate: 200 }}
+    <div class="notes-excerpt">
+      {{ notes.excerpt | strip_html | truncate: 200 }}
     </div>
   </div>
   {% endfor %}
@@ -44,7 +44,7 @@ title: Notes
   margin: 2rem 0;
 }
 
-#opinion-search {
+#notes-search {
   width: 100%;
   max-width: 600px;
   padding: 10px 16px;
@@ -53,7 +53,7 @@ title: Notes
   font-family: monospace;
 }
 
-.opinions-list {
+.notes-list {
   margin-top: 2rem;
   max-width: 1200px;
   margin-left: auto;
@@ -61,38 +61,38 @@ title: Notes
   padding: 0 2rem;
 }
 
-.opinion-item {
+.notes-item {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #eee;
 }
 
-.opinion-meta {
+.notes-meta {
   font-family: monospace;
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 0.5rem;
 }
 
-.opinion-date {
+.notes-date {
   margin-right: 1rem;
 }
 
-.opinion-topic {
+.notes-topic {
   color: #333;
 }
 
-.opinion-item h3 {
+.notes-item h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
 }
 
-.opinion-item h3 a {
+.notes-item h3 a {
   color: #333;
   text-decoration: none;
 }
 
-.opinion-item h3 a:hover {
+.notes-item h3 a:hover {
   text-decoration: underline;
 }
 
@@ -103,7 +103,7 @@ title: Notes
   font-style: italic;
 }
 
-.opinion-excerpt {
+.notes-excerpt {
   color: #555;
   line-height: 1.5;
 }
@@ -113,15 +113,15 @@ title: Notes
 }
 
 @media (max-width: 768px) {
-  .opinion-meta {
+  .notes-meta {
     font-size: 0.8rem;
   }
   
-  .opinion-item h3 {
+  .notes-item h3 {
     font-size: 1.1rem;
   }
   
-  .opinions-list {
+  .notes-list {
     padding: 0 1rem;
   }
 }
@@ -129,8 +129,8 @@ title: Notes
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('opinion-search');
-  const opinionItems = document.querySelectorAll('.opinion-item');
+  const searchInput = document.getElementById('notes-search');
+  const opinionItems = document.querySelectorAll('.notes-item');
   
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase().trim();

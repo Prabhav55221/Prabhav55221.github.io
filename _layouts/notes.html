@@ -34,7 +34,7 @@ window.MathJax = {
 </script>
 
 <style>
-.opinion-meta {
+.notes-meta {
   font-family: monospace;
   font-size: 0.9rem;
   color: #666;
@@ -48,7 +48,7 @@ window.MathJax = {
   clear: both;
 }
 
-.opinion-content {
+.notes-content {
   /* max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -65,27 +65,27 @@ window.MathJax = {
   float: none;
 }
 
-.opinion-content h1 {
+.notes-content h1 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.opinion-content h2 {
+.notes-content h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.opinion-content h3 {
+.notes-content h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.opinion-content article {
+.notes-content article {
   width: 100%;
   clear: both;
   margin-bottom: 2rem;
@@ -146,7 +146,7 @@ window.MathJax = {
 }
 
 @media (max-width: 768px) {
-  .opinion-content {
+  .notes-content {
     padding: 0 1rem;
   }
   
@@ -167,14 +167,14 @@ window.MathJax = {
 </style>
 </head>
 
-<body class="opinion-post" itemscope itemtype="http://schema.org/WebPage">
+<body class="notes-post" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 {% include navigation.html %}
 
 <div id="main" role="main" itemprop="mainContentOfPage">
-  <div class="opinion-content">
-    <div class="opinion-meta">
+  <div class="notes-content">
+    <div class="notes-meta">
       {{ page.date | date: "%Y-%m-%d" }}
       {% if page.topic %} | {{ page.topic }}{% endif %}
       {% if page.paper_title %}
@@ -202,7 +202,7 @@ window.MathJax = {
     </div>
     
     <div class="back-link">
-      <a href="{{ site.url }}/opinions">← Back to All Opinions</a>
+      <a href="{{ site.url }}/notes">← Back to All Notes</a>
     </div>
   </div>
 </div>
