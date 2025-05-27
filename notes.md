@@ -15,7 +15,7 @@ title: Notes
 </div>
 
 <div class="opinions-list" id="opinions-container">
-  {% assign sorted_opinions = site.opinions | sort: 'date' | reverse %}
+  {% assign sorted_opinions = site.notes | sort: 'date' | reverse %}
   {% for opinion in sorted_opinions %}
   <div class="opinion-item" data-content="{{ opinion.title | downcase }} {{ opinion.content | strip_html | downcase }}">
     <div class="opinion-meta">
