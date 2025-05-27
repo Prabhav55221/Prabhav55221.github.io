@@ -13,7 +13,7 @@ excerpt: "Pretty cool to see the selection dynamics when the proposed method is 
 
 Now this won't be an overview of the paper in itself - I recommend reading the amazing [paper](https://arxiv.org/abs/2402.04333) anyway. I will focus more on the idea used to drive the instruction tuning approach presented in the paper and then delve into its applications for Active Learning and what I observe from those experiments. 
 
-The paper in general presents LESS (Low-rank gradiEnt Similarity Search) an optimizer-aware and practically efficient al gorithm to estimate data influences and perform for instruction data selection. In other words, let's say you have to choose data in a principled manned for instruction tuning. What are the general methods for this? Well you could:
+The paper in general presents LESS (Low-rank gradiEnt Similarity Search) - an optimizer-aware and practically efficient algorithm to estimate data influences and perform instruction data selection. In other words, let's say you have to choose data in a principled manned for instruction tuning. What are the general methods for this? Well you could:
 
 - Use all the data - You would probably reduce your taks loss pretty well but this might be too costly in general.
 - Randomly select the data with constraints on amount of data you can select - Would reduce your cost but the everpresent baseline is random selection is probably not effective on task loss.
@@ -49,7 +49,7 @@ $$
 \;}
 $$
 
-> **BIG IDEA!** A *positive* inner product (aligned gradients) means the step lowers the loss on $z'$; a negative one means it hurts.
+> **NOTE!** A *positive* inner product (aligned gradients) means the step lowers the loss on $z'$; a negative one means it hurts.
 
 Aggregating these contributions over all epochs in which $z$ appears yields its **trajectory influence**
 
@@ -87,7 +87,7 @@ This approach balances *how uncertain* the model is about a point with *how diff
 
 #### My Implementation and Observations
 
-I implemented Algorithm 1 defined in the paper with one key difference:
+I implemented Algorithm 1 defined in BADGE with one key difference:
 
 > Start with a model with **no knowledge of the task** - a *cold start*! Can the algorithm balance diversity and uncertainity in the same way?
 
@@ -109,4 +109,9 @@ We can also see the selection process with T-SNE:
 
 ## Conclusions
 
-`Still under work!`
+While we are still working on drawing some more conclusions from this, some things to note are:
+
+- High diversity in earlier cycles, specifically in the case of cold start, actually harms active learning.
+- Entropy towards the later cycles is more beneficial once the model has a sense of the data and the gradients are somewhat *in the right direction*.
+
+`Under Constructions`
