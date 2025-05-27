@@ -22,7 +22,7 @@ The paper in general presents LESS (Low-rank gradiEnt Similarity Search) an opti
 This paper proposes something different (based on some prior work [[3]](https://arxiv.org/abs/2002.08484)) - prioritizing training on data that directly minimizes loss on a target task - which in this case is instruction tuning of some LLM. See the figure below for some idea on the method.
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
-  <img src="https://Prabhav55221.github.io/images/opinion_images/less_main_figure.png" alt="LESS Main Figure" style="width: 75%">
+  <img src="https://Prabhav55221.github.io/images/opinion_images/less_main_figure.png" alt="LESS Main Figure" style="width: 100%">
 </div>
 
 ## Some Concepts
@@ -70,4 +70,39 @@ See Section 3 in the paper to understand a bit more on how this basic idea exten
 
 > Interesting Point - SGD actually hurt the performance of instruction tuning when used with this concept. The idea works with Adam however. Maybe this could be attributed to the general fact that Adam seems to works better than SGD for LLMs (don't quote me).
 
-## 
+## Applications to Active Learning
+
+Now the same idea is very applicable to active learning - which isn't explored in the paper directly since the focus is strongly on instruction tuning. One very obvois way in which it could be used in active learning is represented in the BADGE paper [[4]](https://arxiv.org/abs/1906.03671). The paper method states: `Batch Active learning by Diverse Gradient Embeddings (BADGE), samples
+groups of points that are disparate and high magnitude when represented in a hallucinated
+gradient space, a strategy designed to incorporate both predictive uncertainty and sample
+diversity into every selected batch.` The idea is simple:
+
+1. **Hallucinate labels**: For each unlabeled point, predict what the model *would* label it as (its most likely class).
+2. **Compute gradient embeddings**: Treat this prediction as true, and compute the gradient of the loss with respect to the model’s final layer — this gives a *pseudo* update direction if we were to train on this point.
+3. **Cluster in gradient space**: Use *k-means++* to select a diverse subset of points in this gradient space — prioritizing samples that would lead to different parameter updates.
+4. **Query and train**: Label those diverse points, add them to the labeled set, and retrain the model.
+
+This approach balances *how uncertain* the model is about a point with *how different* it is from others — making every annotation count.
+
+#### My Implementation and Observations
+
+I implemented Algorithm 1 defined in the paper with one key difference:
+
+> Start with a model with **no knowledge of the task** - a *cold start*! Can the algorithm balance diversity and uncertainity in the same way?
+
+Further, I compare this method with something we are working in AnnotationArena (ongoing project with my advisor Prof. Eisner and collaborator Haojun Shi at CLSP) - Idea is still same but instead of clustering gradient, can we align the gradients of the active pool with the gradients with respect to the parameters of the model at each cycle. We do this by computing the same inner product but sorting topologically by the magnitude of gradient and picking top K samples.
+
+Results? Diversity is not that big of a factor when it comes to actually reducing a task loss - In our case the task is to reduce loss on a certain target variable (I won't go into the details, but the variables are ratings of LLM generated stories by other LLMs and Humans). Turns out at a more granular levels, these gradients can be clustered in a more principled manner. Here are the plots:
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+  <img src="https://Prabhav55221.github.io/images/opinion_images/badge_comparision.png" alt="Morning run at JHU" style="width: 50%">
+  <img src="https://Prabhav55221.github.io/images/opinion_images/diversity_score.png" alt="Night run at JHU" style="width: 50%">
+</div>
+
+We can also see the selection process with T-SNE:
+
+![Alt Text](https://Prabhav55221.github.io/images/opinion_images/gif_vis.gif)
+
+## Conclusions
+
+`Still under work!`
