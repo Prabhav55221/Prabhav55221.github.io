@@ -113,4 +113,3 @@ While we are still working on drawing some more conclusions from this, some thin
 
 - High diversity in earlier cycles, specifically in the case of cold start, actually harms active learning.
 - Entropy towards the later cycles is more beneficial once the model has a sense of the data and the gradients are somewhat *in the right direction*.
-- 
