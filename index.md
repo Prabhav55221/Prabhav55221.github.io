@@ -61,8 +61,9 @@ I build models that integrate <strong>speech, text, and vision</strong> for task
 </p>
 
 <ul>
-  <li><strong>Emotion Recognition</strong> (<a href="https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf">example</a>)</li>
-  <li><strong>Speaker Diarization</strong> (<a href="https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf">example</a>)</li>
+  <li><strong>Emotion Recognition</strong> (<a href="https://www.isca-archive.org/interspeech_2025/singh25b_interspeech.html">example</a>)</li>
+  <li><strong>Speaker Diarization</strong> (<a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html">example</a>)</li>
+  <li><strong>Speaker Recognition</strong> (<a href="https://Prabhav55221.github.io/file/2025286331.pdf">example</a>)</li>
 </ul>
 
 <p>
@@ -92,7 +93,7 @@ My initial research in this area (guided by <a href="https://jess-sorrell.github
 </ul>
 
 <p>
-Read our ongoing manuscript: <a href="https://Prabhav55221.github.io/file/SensitivityOfSelectivity.pdf">Sensitivity of Selectivity in Transfer Learning</a> <em>(work-in-progress)</em>.
+Read our ongoing manuscript: <a href="https://www.arxiv.org/abs/2508.04901">Sensitivity of Selectivity in Transfer Learning</a> <em>(under review at TMLR)</em>.
 </p>
 
 </details>
@@ -101,8 +102,11 @@ Read our ongoing manuscript: <a href="https://Prabhav55221.github.io/file/Sensit
 
 ## 📢 recent updates
 
-- **June 2025**  
-  Starting my summer internship at a **stealth startup** in California — working on agentic workflows for document understanding in finance and retail.
+- **August 2025**  
+  One paper <a href="https://Prabhav55221.github.io/file/2025286331.pdf">accepted</a> to ASRU 2025 (learnings from our submission to NIST SRE 2024). Also, my paper with <a href="https://jess-sorrell.github.io">Prof. Jess Sorrell</a> is <a href="https://www.arxiv.org/abs/2508.04901">available on arxiv</a> and under review at TMLR!
+
+- **August 2025**  
+  Wrapped up my summer internship at a **stealth startup** in California — worked on agentic workflows for document understanding in finance and retail.
 
 - **May 2025**  
   Two papers accepted at **INTERSPEECH 2025**! (See [this post](https://x.com/psingh522/status/1925354318988751117)). Excited to present in Rotterdam 🇳🇱!

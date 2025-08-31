@@ -8,17 +8,27 @@ title: Publications
 
 ## Conference Papers
 
-- <a href="https://Prabhav55221.github.io/file/CYS_MYD_CameraReady.pdf" style="color:#db3e75; font-weight:bold">Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization</a><br>
+- <a href="https://www.arxiv.org/abs/2508.04901" style="color:#db3e75; font-weight:bold">Sensitivity of Stability: Theoretical & Empirical Analysis of Replicability for Adaptive Data Selection in Transfer Learning</a><br>
+  **Prabhav Singh~**, Jessica Sorrell<br>
+  Under Review at TMLR,<br>
+  Available as arXiv preprint.<br>
+
+- <a href="https://Prabhav55221.github.io/file/2025286331.pdf" style="color:#db3e75; font-weight:bold">The JHU-MIT System for NIST SRE24: Post-Evaluation Analysis</a><br>
+  Jesus Villalba, Jonas Borgstron, **Prabhav Singh~** et al.<br>
+  IEEE Automatic Speech Recognition and Understanding Workshop<br>
+  ASRU 2025.<br>
+  <span style="color: red">Accepted</span>
+
+- <a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html" style="color:#db3e75; font-weight:bold">Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization</a><br>
   **Prabhav Singh~**, Jesus Villalba, Najim Dehak<br>
   In Proceedings of INTERSPEECH 2025<br>
   Rotterdam, Netherlands. August, 2025.<br>
-  <span style="color: red">Accepted [Presenting in August 2025]</span>
+  <span style="color: red">Oral, Top 20%</span>
 
-- <a href="https://Prabhav55221.github.io/file/EmoJudge_Interspeech_CameraReady.pdf" style="color:#db3e75; font-weight:bold">EmoJudge: LLM Based Post-Hoc Refinement for Multimodal Speech Emotion Recognition</a><br>
+- <a href="https://www.isca-archive.org/interspeech_2025/singh25b_interspeech.html" style="color:#db3e75; font-weight:bold">EmoJudge: LLM Based Post-Hoc Refinement for Multimodal Speech Emotion Recognition</a><br>
   **Prabhav Singh~**, Jesus Villalba<br>
   In Proceedings of INTERSPEECH 2025<br>
   Rotterdam, Netherlands. August, 2025.<br>
-  <span style="color: red">Accepted [Presenting in August 2025]</span>
 
 - <a href="https://dl.acm.org/doi/10.1145/3678957.3689332" style="color:#db3e75; font-weight:bold">Multimodal Emotion Recognition Harnessing the Complementarity of Speech, Language, and Vision</a><br>
   Thomas Thebaud†**~**, Anna Favaro†, **Prabhav Singh**†, Yaohan Guan†, Yuchen Yang†, Jesus Villalba, Laureano Mono-Velazquez, Najim Dehak<br>
