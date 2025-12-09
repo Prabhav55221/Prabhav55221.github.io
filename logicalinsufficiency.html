@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When LLMs Know They Don't: Probing Latent Representations for Logical Insufficiency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+            line-height: 1.2;
+        }
+
+        .authors {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .equal-contribution {
+            font-size: 0.9em;
+            color: #777;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .affiliations {
+            font-size: 0.95em;
+            color: #777;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .btn-paper {
+            background: #d0d0d0;
+            color: #888;
+            cursor: not-allowed;
+        }
+
+        .btn-code {
+            background: #2d3748;
+            color: white;
+        }
+
+        .btn-code:hover {
+            background: #1a202c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .section {
+            margin: 80px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #444;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .figure {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .poster-section {
+            margin: 80px 0;
+        }
+
+        .poster-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .container {
+                padding: 60px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>When LLMs Know They Don't: Probing Latent<br>Representations for Logical Insufficiency</h1>
+
+            <div class="authors">
+                Matt Wang, Prabhav Singh, Tom Wang
+            </div>
+
+            <div class="equal-contribution">
+                *Authors contributed equally to this work
+            </div>
+
+            <div class="affiliations">
+                <div>Center for Language and Speech Processing</div>
+                <div>Johns Hopkins University, Baltimore, MD</div>
+            </div>
+
+            <div class="buttons">
+                <span class="btn btn-paper">
+                    📄 Paper (Coming Soon)
+                </span>
+                <a href="https://github.com/mattwang123/CARDS" class="btn btn-code" target="_blank">
+                    💻 Code
+                </a>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>Overview</h2>
+            <div class="intro-text">
+                <p>
+                    Large language models <strong>confidently hallucinate on logically insufficient questions</strong>—problems lacking necessary information for deterministic solutions. We investigate whether this failure reflects the LLMs' <em>inability to recognize insufficiency</em> or merely their <em>inability to verbalize this internal knowledge</em>.
+                </p>
+                <p>
+                    Through systematic probing experiments across three mathematical reasoning benchmarks and four LLMs, we demonstrate that <strong>logical insufficiency is robustly encoded as a linearly separable property</strong> in frozen LLM representations. Simple linear probes achieve <strong>80–91% F1 on binary insufficiency detection</strong>, despite models' verbal self-assessment accuracy remaining near chance.
+                </p>
+                <p>
+                    This <strong>representation-language gap averaging +25.6 percentage points</strong> reveals that models already "know" when they cannot know, but this knowledge remains latent. We exploit these internal signals to implement <em>lightweight probe-guided intervention systems</em> that detect insufficient queries before generation.
+                </p>
+            </div>
+
+            <div class="figure">
+                <img src="images/insufficiency/HighQuality.png" alt="Probe-Guided Clarification Pipeline">
+            </div>
+        </div>
+
+        <div class="poster-section">
+            <h2>Research Poster</h2>
+            <a href="file/771_Final_Poster.pdf" target="_blank">
+                <img src="file/771_Final_Poster.pdf" alt="Research Poster" style="cursor: pointer;">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
