@@ -63,7 +63,7 @@ title: Publications
   Center for Language and Speech Processing, Johns Hopkins University<br>
   <span style="color: red">Under Review</span>
 
-- <a href="https://Prabhav55221.github.io/logical" style="color:#db3e75; font-weight:bold">When LLMs Know They Don't: Probing Latent Representations for Logical Insufficiency</a><br>
+- <a href="https://Prabhav55221.github.io/insufficiency" style="color:#db3e75; font-weight:bold">When LLMs Know They Don't: Probing Latent Representations for Logical Insufficiency</a><br>
   Matt Wang†, **Prabhav Singh**†, Tom Wang†<br>
   Center for Language and Speech Processing, Johns Hopkins University<br>
   <span style="color: red">Class Project</span>
