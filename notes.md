@@ -6,7 +6,7 @@ title: Notes
 
 # Notes
 
-*Mostly a scratch space for me. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be! Best read on a laptop!*
+*Mostly a scratch space. I will try to populate this with my thought on papers, ideas, topics etc. Hopefully I am more frequent than I expect myself to be! Best read on a laptop!*
 
 ---
 
