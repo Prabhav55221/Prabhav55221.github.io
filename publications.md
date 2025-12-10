@@ -58,6 +58,16 @@ title: Publications
 
 > *Includes stuff I did for classes at JHU*
 
+- <a href="https://Prabhav55221.github.io/marformer" style="color:#db3e75; font-weight:bold">Marformer: A Transformer for Predicting Missing Data Distributions</a><br>
+  **Prabhav Singh**, Haojun Shi, Xiheng Wang, Jason Eisner<br>
+  Center for Language and Speech Processing, Johns Hopkins University<br>
+  <span style="color: red">Under Review</span>
+
+- <a href="https://Prabhav55221.github.io/logicalinsufficiency" style="color:#db3e75; font-weight:bold">When LLMs Know They Don't: Probing Latent Representations for Logical Insufficiency</a><br>
+  Matt Wang†, **Prabhav Singh**†, Tom Wang†<br>
+  Center for Language and Speech Processing, Johns Hopkins University<br>
+  <span style="color: red">Class Project</span>
+
 - <a href="https://Prabhav55221.github.io/file/nistsre.pdf" style="color:#db3e75; font-weight:bold">The JHU-MIT Submission to NIST 2024 Speaker Recognition Evaluation (SRE24)</a><br>
   Jesus Villalba, **Prabhav Singh**, J. Borgstrom et al.<br>
   National Institute of Science and Technology, Speech Recognition Evaluation 2024<br>
