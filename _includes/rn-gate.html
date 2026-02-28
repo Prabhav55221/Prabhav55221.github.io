@@ -1,0 +1,45 @@
+<!-- PASSWORD GATE — shared by reading-notes index and individual note pages -->
+<!-- To change: run  btoa("yournewpassword")  in any browser console and update E below -->
+<div id="rn-gate">
+  <div class="rn-gate-box">
+    <div class="rn-lock">&#128274;</div>
+    <h2>Private Area</h2>
+    <p>These are my personal reading notes.<br>Enter the password to continue.</p>
+    <input type="password" id="rn-pw" placeholder="Password" autocomplete="current-password">
+    <button id="rn-btn">Unlock</button>
+    <p id="rn-err">Incorrect password — try again.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var E = 'bm90ZXMyMDI1';
+
+  function show() {
+    document.getElementById('rn-gate').style.display = 'none';
+    document.getElementById('rn-content').style.display = '';
+  }
+
+  function check() {
+    var v = document.getElementById('rn-pw').value;
+    try {
+      if (btoa(v) === E) {
+        localStorage.setItem('rn_unlocked', '1');
+        show();
+        return;
+      }
+    } catch (e) {}
+    document.getElementById('rn-err').style.display = 'block';
+    document.getElementById('rn-pw').value = '';
+    document.getElementById('rn-pw').focus();
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (localStorage.getItem('rn_unlocked') === '1') { show(); return; }
+    document.getElementById('rn-btn').addEventListener('click', check);
+    document.getElementById('rn-pw').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') check();
+    });
+  });
+}());
+</script>

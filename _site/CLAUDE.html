@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLAUDE.md — Prabhav Singh</title>
+  <meta name="description" content="Personal website of Prabhav Singh, PhD student in CS at UT Austin.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+
+  <link rel="stylesheet" href="/assets/css/prabhav.css">
+
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date()); gtag('config','G-T5N5JY1E21');
+  </script>
+</head>
+
+<body>
+<div class="ps-wrapper">
+
+  <!-- ═══ SIDEBAR ═══ -->
+  <aside class="ps-sidebar">
+    <img src="/profile.png" alt="Prabhav Singh" class="ps-photo">
+
+    <div class="ps-name">
+      <span class="ps-name-first">Prabhav</span>
+      <span class="ps-name-last">Singh</span>
+    </div>
+    <div class="ps-affil">
+      Master's CS (Thesis),<br>
+      <a href="https://www.cs.jhu.edu" target="_blank">Department of Computer Science</a><br>
+      <a href="https://www.clsp.jhu.edu" target="_blank">Center for Language and Speech Processing</a><br>
+      <a href="https://engineering.jhu.edu" target="_blank">Johns Hopkins University</a>, Baltimore MD
+    </div>
+    <div class="ps-email">
+      <a href="mailto:psingh54@jhu.edu">psingh54 [at] jhu.edu</a>
+    </div>
+
+    <div class="ps-social">
+      <a href="https://twitter.com/psingh522" target="_blank">
+        <i class="fab fa-x-twitter"></i>&nbsp;Twitter
+      </a>
+      <a href="https://github.com/Prabhav55221" target="_blank">
+        <i class="fab fa-github"></i>&nbsp;GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=NiUjxAwAAAAJ&hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i>&nbsp;Scholar
+      </a>
+      <a href="/file/prabhavsresume.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>&nbsp;CV
+      </a>
+    </div>
+
+    <div class="ps-divider"></div>
+
+    <nav aria-label="Site navigation">
+      <ul class="ps-nav">
+        <li>
+          <a href="/" >
+            <span class="nav-icon"><i class="fas fa-house"></i></span>Home
+          </a>
+        </li>
+        <li>
+          <a href="/publications" >
+            <span class="nav-icon"><i class="fas fa-scroll"></i></span>Publications
+          </a>
+        </li>
+        <li>
+          <a href="/random" >
+            <span class="nav-icon"><i class="fas fa-dice"></i></span>Misc
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="ps-divider"></div>
+
+    <div class="ps-section-label">Recent (Scroll for More)</div>
+    <div class="ps-updates">
+      
+      <div class="ps-update-item">
+        <div class="ps-update-date">Aug 2025</div>
+        <div class="ps-update-text">My first (somewhat) ML theory <a href="https://www.arxiv.org/abs/2508.04901">paper</a> done with Prof. Jess Sorrell is available on arXiv.</div>
+      </div>
+      
+      <div class="ps-update-item">
+        <div class="ps-update-date">Aug 2025</div>
+        <div class="ps-update-text">Wrapped up summer internship at a stealth startup where I worked on agentic document workflows.</div>
+      </div>
+      
+      <div class="ps-update-item">
+        <div class="ps-update-date">May 2025</div>
+        <div class="ps-update-text"><a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html">Two</a> <a href="https://www.isca-archive.org/interspeech_2025/singh25b_interspeech.html">papers</a> accepted at INTERSPEECH 2025! Presented in Rotterdam.</div>
+      </div>
+      
+      <div class="ps-update-item">
+        <div class="ps-update-date">Apr 2025</div>
+        <div class="ps-update-text">Best Poster at <a href="https://www.mascsll.org">MASC-SLL 2025</a> for AnnotationArena!</div>
+      </div>
+      
+      <div class="ps-update-item">
+        <div class="ps-update-date">Sep 2024</div>
+        <div class="ps-update-text">ICMI'24 <a href="https://dl.acm.org/doi/10.1145/3678957.3689332">paper</a> on multimodal emotion recognition for MCI now available.</div>
+      </div>
+      
+    </div>
+
+  </aside>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="ps-main">
+    <h1 id="claudemd">CLAUDE.md</h1>
+
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+
+<h2 id="what-this-is">What This Is</h2>
+
+<p>A Jekyll-based personal academic website deployed via GitHub Pages at <code class="language-plaintext highlighter-rouge">https://prabhav55221.github.io</code>. There is no build step to run locally beyond standard Jekyll commands — pushing to <code class="language-plaintext highlighter-rouge">main</code> deploys automatically.</p>
+
+<h2 id="local-development">Local Development</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve        <span class="c"># serve at http://localhost:4000</span>
+bundle <span class="nb">exec </span>jekyll serve <span class="nt">--drafts</span>  <span class="c"># include draft notes</span>
+</code></pre></div></div>
+
+<p>There is no Gemfile committed to the repo. If one doesn’t exist locally, create a minimal one:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+<span class="n">gem</span> <span class="s2">"jekyll"</span>
+<span class="n">gem</span> <span class="s2">"kramdown-parser-gfm"</span>
+<span class="n">gem</span> <span class="s2">"rouge"</span>
+</code></pre></div></div>
+
+<h2 id="architecture">Architecture</h2>
+
+<h3 id="layout-hierarchy">Layout hierarchy</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/default.html</code> — the single base layout. Contains the full HTML shell: sidebar with photo/nav/social links, main content area. Loads KaTeX, Font Awesome, academicons, Inter font, and Google Analytics. All pages ultimately use this.</li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/notes.html</code> — wraps <code class="language-plaintext highlighter-rouge">default</code>, adds note header (title, date, topic, paper reference) and a “← Back to Notes” footer link.</li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/reading-note.html</code> — wraps <code class="language-plaintext highlighter-rouge">default</code>, adds a private-banner warning and a “← Back to Reading Log” footer link. These pages are not linked from the main nav.</li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/page.html</code> — thin wrapper used for standalone pages.</li>
+</ul>
+
+<h3 id="content-collections-defined-in-_configyml">Content collections (defined in <code class="language-plaintext highlighter-rouge">_config.yml</code>)</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_notes/</code> → public notes, served at <code class="language-plaintext highlighter-rouge">/notes/:name/</code>, default layout <code class="language-plaintext highlighter-rouge">notes</code>. Listed and searched on <code class="language-plaintext highlighter-rouge">notes.md</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">_reading_notes/</code> → private reading log, served at <code class="language-plaintext highlighter-rouge">/reading-notes/:name/</code>, default layout <code class="language-plaintext highlighter-rouge">reading-note</code>. Listed on <code class="language-plaintext highlighter-rouge">reading-notes/index.md</code>. Not linked from sidebar nav; robots-noindexed via JS.</li>
+</ul>
+
+<h3 id="pages">Pages</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">index.md</code> — homepage (research interests as <code class="language-plaintext highlighter-rouge">&lt;details&gt;</code> dropdowns, recent updates)</li>
+  <li><code class="language-plaintext highlighter-rouge">publications.md</code> — publications list (raw HTML for styling with <code class="language-plaintext highlighter-rouge">.pub-*</code> classes)</li>
+  <li><code class="language-plaintext highlighter-rouge">notes.md</code> — notes index with client-side JS keyword search filtering <code class="language-plaintext highlighter-rouge">.notes-item</code> cards</li>
+  <li><code class="language-plaintext highlighter-rouge">random.md</code> — misc/personal page</li>
+  <li><code class="language-plaintext highlighter-rouge">reading-notes/index.md</code> — private reading log index</li>
+</ul>
+
+<h3 id="styling">Styling</h3>
+<p>All custom styles live in <code class="language-plaintext highlighter-rouge">assets/css/prabhav.css</code> — there is no separate component CSS. Key design tokens (CSS variables in <code class="language-plaintext highlighter-rouge">:root</code>):</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">--accent: #db3e75</code> — the signature pink used for headings, borders, highlights</li>
+  <li><code class="language-plaintext highlighter-rouge">--bg: #f5f4ef</code> — warm beige page background</li>
+  <li><code class="language-plaintext highlighter-rouge">--sidebar-bg: #ffffff</code> — white sidebar</li>
+  <li><code class="language-plaintext highlighter-rouge">--font-sans: 'Inter'</code>, <code class="language-plaintext highlighter-rouge">--font-mono: 'SFMono-Regular'</code></li>
+</ul>
+
+<p>CSS class prefixes by section: <code class="language-plaintext highlighter-rouge">.ps-*</code> (sidebar/layout), <code class="language-plaintext highlighter-rouge">.pub-*</code> (publications), <code class="language-plaintext highlighter-rouge">.notes-*</code> (notes index), <code class="language-plaintext highlighter-rouge">.rn-*</code> (reading notes), <code class="language-plaintext highlighter-rouge">.misc-*</code> (random page).</p>
+
+<h3 id="math">Math</h3>
+<p>KaTeX is loaded in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code> (not MathJax despite <code class="language-plaintext highlighter-rouge">_config.yml</code> mentioning it). Delimiters: <code class="language-plaintext highlighter-rouge">$$...$$</code> for display math, <code class="language-plaintext highlighter-rouge">$...$</code> for inline.</p>
+
+<h2 id="adding-content">Adding Content</h2>
+
+<h3 id="new-public-note-_notes">New public note (<code class="language-plaintext highlighter-rouge">_notes/</code>)</h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">notes</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Note</span><span class="nv"> </span><span class="s">Title"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-01-01</span>
+<span class="na">topic</span><span class="pi">:</span> <span class="s2">"</span><span class="s">NLP"</span>           <span class="c1"># optional — shown as colored tag</span>
+<span class="na">paper_title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">..."</span>     <span class="c1"># optional</span>
+<span class="na">paper_authors</span><span class="pi">:</span> <span class="s2">"</span><span class="s">..."</span>   <span class="c1"># optional</span>
+<span class="na">paper_url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://arxiv.org/abs/..."</span>  <span class="c1"># optional</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">..."</span>         <span class="c1"># shown in notes index card</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h3 id="new-reading-log-entry-_reading_notes">New reading log entry (<code class="language-plaintext highlighter-rouge">_reading_notes/</code>)</h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">reading-note</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Week</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">Jan</span><span class="nv"> </span><span class="s">1"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-01-01</span>
+<span class="na">week_of</span><span class="pi">:</span> <span class="s2">"</span><span class="s">January</span><span class="nv"> </span><span class="s">1,</span><span class="nv"> </span><span class="s">2025"</span>
+<span class="na">papers</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Paper</span><span class="nv"> </span><span class="s">A,</span><span class="nv"> </span><span class="s">Paper</span><span class="nv"> </span><span class="s">B"</span>   <span class="c1"># optional</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h3 id="images">Images</h3>
+<p>Store in <code class="language-plaintext highlighter-rouge">images/</code> at repo root. Reference as <code class="language-plaintext highlighter-rouge">https://Prabhav55221.github.io/images/filename.ext</code> (absolute URL, not relative — required for Jekyll collections).</p>
+
+
+  </main>
+
+</div>
+
+<script>
+  if (document.querySelector('.twitter-tweet')) {
+    var s = document.createElement('script');
+    s.src = 'https://platform.twitter.com/widgets.js';
+    s.async = true; document.head.appendChild(s);
+  }
+</script>
+</body>
+</html>

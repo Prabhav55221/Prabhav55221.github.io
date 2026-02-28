@@ -1,0 +1,16 @@
+/* Base: centre the article and let it use the full line length */
+#main article{
+    margin: 0 auto;
+    width: 100% !important;   /* kill the 90 % rule               */
+    float: none !important;   /* kill the float that shoves it left */
+  }
+  
+  /* Same override at the two break-points the theme uses */
+  @media only screen and (min-width:37.5em),
+         only screen and (min-width:86.375em){
+    #main article{
+      width: 100% !important;   /* wipes out 50 % and 37.5 %       */
+      float: none !important;
+    }
+  }
+  

@@ -1,62 +1,45 @@
-# Updated _config.yml - Clean version
-title: Prabhav Singh
-url: https://Prabhav55221.github.io
+title: "Prabhav Singh"
+url:   "https://prabhav55221.github.io"
+baseurl: ""
 
-# Owner/author information
 owner:
-  name: Prabhav Singh
-  avatar: profile.png
-  email: psingh54@jhu.edu
-  cv: https://Prabhav55221.github.io/file/prabhavsresume.pdf
-  twitter: psingh522
-  github: Prabhav55221
-  linkedin: prabhavsingh
-  scholar: https://scholar.google.co.uk/citations?user=NiUjxAwAAAAJ&hl=en
-  # bio: "PhD-bound researcher in NLP and speech processing. Currently MS in CS at Johns Hopkins University."
+  name:    "Prabhav Singh"
+  email:   "psingh54@jhu.edu"
+  twitter: "psingh522"
+  github:  "Prabhav55221"
 
-# Links to include in top navigation
-links:
-  - title: About Me
-    url: /
-  - title: Publications
-    url: /publications/
-  - title: Notes
-    url: /notes/
-  - title: Random Stuff
-    url: /random/
-
-# Site settings
-timezone: America/New_York
-future: true
-highlighter: rouge
-permalink: /:categories/:title
-
-# Kramdown settings
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-# Comments (updated for your site)
-disqus:
-  shortname: prabhavsingh
-
-# Build settings
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "README.md"]
-
-# Collections for notes
 collections:
   notes:
     output: true
-    permalink: /notes/:title/
+    permalink: /notes/:name/
+  reading_notes:
+    output: true
+    permalink: /reading-notes/:name/
 
-# Defaults
 defaults:
   - scope:
       path: ""
       type: "notes"
     values:
       layout: "notes"
+  - scope:
+      path: ""
+      type: "reading_notes"
+    values:
+      layout: "reading-note"
+
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - backup
+  - "*.sh"

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include rn-gate.html %}
+
+<div id="rn-content" style="display:none">
+  <article>
+    <header style="margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid var(--border);">
+      <h1 style="margin-bottom:6px;">{{ page.title }}</h1>
+      <div style="font-family:var(--font-mono);font-size:0.79rem;color:var(--text-muted);">
+        Week of {{ page.week_of }}
+      </div>
+      {% if page.papers %}
+      <div style="margin-top:10px;font-size:0.85rem;color:var(--text-muted);font-style:italic;">
+        &#128218; Papers this week: {{ page.papers }}
+      </div>
+      {% endif %}
+    </header>
+    {{ content }}
+    <div style="margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);">
+      <a href="/reading-notes" style="font-size:0.85rem;">&larr; Back to Reading Log</a>
+    </div>
+  </article>
+</div>

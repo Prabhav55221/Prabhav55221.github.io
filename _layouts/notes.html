@@ -1,219 +1,23 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
-<head>
-{% include head.html %}
-
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/override.css">
-
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-T5N5JY1E21');
-</script>
-
-<!-- MathJax for LaTeX rendering -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  }
-};
-</script>
-
-<style>
-.notes-meta {
-  font-family: monospace;
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 1rem;
-}
-
-#main {
-  width: 100%;
-  clear: both;
-}
-
-.notes-content {
-  /* max-width: 800px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  line-height: 1.7;
-  font-size: 1rem; */
-  max-width: 1100px;
-  width: calc(100% - 4rem);   /* 2 rem padding on each side            */
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2rem;
-  line-height: 1.7;
-  font-size: 1rem;
-  /* make absolutely sure nothing is making it float left */
-  float: none;
-}
-
-.notes-content h1 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.notes-content h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.notes-content h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-.notes-content article {
-  width: 100%;
-  clear: both;
-  margin-bottom: 2rem;
-}
-
-.paper-info {
-  background: #f8f8f8;
-  padding: 1rem;
-  margin: 2rem 0;
-  font-style: italic;
-  border-left: 2px solid #333;
-}
-
-.share-section {
-  margin: 3rem auto 2rem;
-  padding: 1.5rem;
-  border-top: 1px solid #eee;
-  text-align: center;
-  max-width: 800px;
-  clear: both;
-}
-
-.share-buttons {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.share-btn {
-  display: inline-block;
-  padding: 8px 16px;
-  text-decoration: none;
-  color: white;
-  font-size: 0.9rem;
-}
-
-.share-twitter { background: #1da1f2; }
-.share-linkedin { background: #0077b5; }
-
-.back-link {
-  display: block;
-  margin: 2rem auto;
-  text-align: center;
-  max-width: 800px;
-}
-
-.back-link a {
-  color: #333;
-  text-decoration: none;
-  padding: 8px 16px;
-  border: 1px solid #333;
-}
-
-.back-link a:hover {
-  background: #333;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .notes-content {
-    padding: 0 1rem;
-  }
-  
-  .share-section {
-    margin: 2rem 1rem;
-    padding: 1rem;
-  }
-  
-  .share-buttons {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .back-link {
-    margin: 2rem 1rem;
-  }
-}
-</style>
-</head>
-
-<body class="notes-post" itemscope itemtype="http://schema.org/WebPage">
-
-{% include chrome-frame.html %}
-{% include navigation.html %}
-
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <div class="notes-content">
-    <div class="notes-meta">
-      {{ page.date | date: "%Y-%m-%d" }}
-      {% if page.topic %} | {{ page.topic }}{% endif %}
-      {% if page.paper_title %}
-      <div class="paper-info">
-        <strong>Paper:</strong> {{ page.paper_title }}
-        {% if page.paper_authors %}<br>{{ page.paper_authors }}{% endif %}
-        {% if page.paper_url %}<br><a href="{{ page.paper_url }}" target="_blank">Read Paper</a>{% endif %}
-      </div>
-      {% endif %}
+---
+layout: default
+---
+<article>
+  <header style="margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid var(--border);">
+    <h1 style="margin-bottom:6px;">{{ page.title }}</h1>
+    <div style="font-family:var(--font-mono);font-size:0.79rem;color:var(--text-muted);">
+      {{ page.date | date: "%B %d, %Y" }}
+      {% if page.topic %}&nbsp;&middot;&nbsp;<span style="color:var(--accent);font-weight:700;">[{{ page.topic }}]</span>{% endif %}
     </div>
-    
-    <h1>{{ page.title }}</h1>
-    
-    <article>
-      {{ content }}
-    </article>
-    
-    <div class="share-section">
-      <div class="share-buttons">
-        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via=psingh522" 
-           class="share-btn share-twitter" target="_blank">Share on Twitter</a>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" 
-           class="share-btn share-linkedin" target="_blank">Share on LinkedIn</a>
-      </div>
+    {% if page.paper_title %}
+    <div style="margin-top:10px;font-size:0.85rem;color:var(--text-muted);font-style:italic;">
+      &#128196; <strong>Paper:</strong> {{ page.paper_title }}
+      {% if page.paper_authors %}&mdash;{{ page.paper_authors }}{% endif %}
+      {% if page.paper_url %}&nbsp;&middot;&nbsp;<a href="{{ page.paper_url }}" target="_blank">arXiv</a>{% endif %}
     </div>
-    
-    <div class="back-link">
-      <a href="{{ site.url }}/notes">← Back to All Notes</a>
-    </div>
+    {% endif %}
+  </header>
+  {{ content }}
+  <div style="margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);">
+    <a href="/notes" style="font-size:0.85rem;">&larr; Back to Notes</a>
   </div>
-</div>
-
-<div class="footer-wrap">
-  <footer>
-    {% include footer.html %}
-  </footer>
-</div>
-
-{% include scripts.html %}
-
-</body>
-</html>
+</article>

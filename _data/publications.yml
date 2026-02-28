@@ -1,0 +1,99 @@
+# Publications data — edit this file to add/update papers.
+# † in authors = equal contribution
+#
+# Per entry:
+#   title    : paper title (string)
+#   authors  : author list as a string — "Prabhav Singh" will be auto-bolded
+#   venue    : conference / journal name + location / volume
+#   year     : integer
+#   links    : optional keys: paper, arxiv, code, poster, slides
+#   award    : optional badge text (e.g. "Oral · Top 20%")
+#   note     : optional muted text (e.g. "Under Review")
+
+conferences:
+
+  - title: "Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization"
+    authors: "Prabhav Singh, Jesus Villalba, Najim Dehak"
+    venue: "Interspeech 2025 · Rotterdam, Netherlands"
+    year: 2025
+    links:
+      paper: "https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html"
+    award: "Oral · Top 20%"
+
+  - title: "EmoJudge: LLM Based Post-Hoc Refinement for Multimodal Speech Emotion Recognition"
+    authors: "Prabhav Singh, Jesus Villalba"
+    venue: "Interspeech 2025 · Rotterdam, Netherlands"
+    year: 2025
+    links:
+      paper: "https://www.isca-archive.org/interspeech_2025/singh25b_interspeech.html"
+
+  - title: "The JHU-MIT System for NIST SRE24: Post-Evaluation Analysis"
+    authors: "Jesus Villalba, Jonas Borgstron, Prabhav Singh et al."
+    venue: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2025)"
+    year: 2025
+    links:
+      paper: "https://Prabhav55221.github.io/file/2025286331.pdf"
+
+  - title: "Multimodal Emotion Recognition Harnessing the Complementarity of Speech, Language, and Vision"
+    authors: "Thomas Thebaud†, Anna Favaro†, Prabhav Singh†, Yaohan Guan†, Yuchen Yang†, Jesus Villalba, Laureano Mono-Velazquez, Najim Dehak"
+    venue: "26th ACM International Conference on Multimodal Interaction (ICMI '24) · San Jose, Costa Rica"
+    year: 2024
+    links:
+      paper: "https://dl.acm.org/doi/10.1145/3678957.3689332"
+    award: "1st Place · Empathic Virtual Agent Challenge 2024"
+
+journals:
+
+  - title: "SEMI-FND: Stacked Ensemble Based Multimodal Inferencing Framework for Faster Fake News Detection"
+    authors: "Prabhav Singh†, R. Srivastava†, K. Rana, V. Kumar"
+    venue: "Expert Systems With Applications, Elsevier · Vol. 215, 2023"
+    year: 2023
+    links:
+      paper: "https://doi.org/10.1016/j.eswa.2022.119302"
+
+  - title: "A Topic Modeled Unsupervised Approach to Single Document Extractive Text Summarization"
+    authors: "R. Srivastava†, Prabhav Singh†, K. Rana, V. Kumar"
+    venue: "Knowledge-Based Systems, Elsevier · Vol. 246, 2022"
+    year: 2022
+    links:
+      paper: "https://doi.org/10.1016/j.knosys.2022.108636"
+
+  - title: "A Multimodal Hierarchical Approach to Speech Emotion Recognition from Audio and Text"
+    authors: "Prabhav Singh†, R. Srivastava†, K. Rana, V. Kumar"
+    venue: "Knowledge-Based Systems, Elsevier · Vol. 229, 2021"
+    year: 2021
+    links:
+      paper: "https://doi.org/10.1016/j.knosys.2021.107316"
+
+preprints:
+
+  - title: "Sensitivity of Stability: Theoretical & Empirical Analysis of Replicability for Adaptive Data Selection in Transfer Learning"
+    authors: "Prabhav Singh, Jessica Sorrell"
+    venue: "arXiv preprint · 2025"
+    year: 2025
+    links:
+      arxiv: "https://www.arxiv.org/abs/2508.04901"
+
+  - title: "Marformer: A Transformer for Predicting Missing Data Distributions"
+    authors: "Prabhav Singh†, Haojun Shi†, Xiheng Wang†, Jason Eisner"
+    venue: "CLSP, Johns Hopkins University"
+    year: 2025
+    links:
+      paper: "https://Prabhav55221.github.io/marformer"
+    note: "In Progress . MSE Thesis"
+
+  - title: "Active Learning and Feature-Acquisition with LLMs and Humans"
+    authors: "Prabhav Singh†, Haojun Shi†, Jason Eisner"
+    venue: "Mid-Atlantic Student Colloquium on Speech, Language and Learning (MASC-SLL 2025)"
+    year: 2025
+    links:
+      poster: "https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf"
+    award: "Best Poster Award"
+
+  - title: "The JHU-MIT Submission to NIST 2024 Speaker Recognition Evaluation (SRE24)"
+    authors: "Jesus Villalba, Prabhav Singh, J. Borgstrom et al."
+    venue: "NIST Speaker Recognition Evaluation 2024"
+    year: 2024
+    links:
+      paper: "https://Prabhav55221.github.io/file/nistsre.pdf"
+    note: "Accepted & Presented"

@@ -1,63 +1,42 @@
 ---
-layout: page
+layout: default
+permalink: /
 ---
 
 # hello!
 
-<img src="https://Prabhav55221.github.io/profile.png" class="floatpic">
-
 I'm **Prabhav Singh** *(pronounced **Pruh-bhav**)*.
 
-<br>
+I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/). I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). 
 
-I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/). I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
+Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
 
-<br>
-
-You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `psingh54 at jhu dot edu`
-
-> 💡 <span style="color:#990000;"><strong>I am actively seeking PhD positions for Fall 2026.</strong> If you are aware of openings or opportunities, I'd deeply appreciate hearing from you!</span>
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf) or read more about me [here](https://Prabhav55221.github.io/about). Feel free to reach out at: `psingh54 at jhu dot edu`
 
 ---
+## Research Interests
 
-## my (ever-changing) research interests
+My research interests are focused on **method development in NLP**, with an emphasis on approaches that are adaptable to supervision constraints and aligned with how **humans naturally teach, label, and reason**. I am interested in developing methods in the *fuzzy area*, where we must learn from partial feedback, conflicting signals, and implicit preferences.
 
-My broad interests are in the field of langauge modeling, speech representation and any combination of both that is helpful in solving a task. See my <a href="https://Prabhav55221.github.io/publications">publications</a> for more, or read about my major research areas (as of now) below (click on them to expand).
+<div class="research-list" markdown="1">
+
+1. **Clarification, Uncertainty & Attribution:** Studying how *models navigate ambiguous interactions*: knowing when and how to seek clarification, expressing uncertainty and sunderspecification.
+
+2. **Human-AI Collaboration:** Building frameworks that optimize decisions in human-LLM workflows, determining when human judgment is needed versus when LLMs suffice (See [this](https://Prabhav55221.github.io/marformer) and [this](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)).
+
+3. **Reasoning in LLMs:** Understanding and surfacing uncertainty in LLM reasoning, and grounding reasoning chains in relevant documents from the model’s training data.
+
+</div>
+
+Previously, owing to my background in ECE, I have also worked a lot on speech representation and speaker systems. These days, I find my interest more in language and methoids. You can read more about my previous research below:
 
 <details>
-<summary><strong>Cheaper LLM + Human Workflows</strong>: Combining humans and LLMs in a pipeline that enables principled, cost-effective annotation and evaluation.</summary>
+<summary><strong>Previous Interests</strong></summary>
 
 <br>
 
 <p>
-LLMs are increasingly employed as surrogate annotators and evaluators in NLP workflows. However, current practices often involve multiple heuristic decisions to design effective workflows. For example, choosing the appropriate subset to annotate — by LLMs or humans — remains a costly decision.
-</p>
-
-<p>
-Recently, I've been working on <strong>AnnotationArena</strong> — an end-to-end framework to streamline LLM-based evaluation and annotation. This includes:
-</p>
-
-<ul>
-  <li>Using <em>Value of Information</em> <a href="https://arxiv.org/abs/2110.13973">[1]</a>, <a href="https://dl.acm.org/doi/10.5555/2051237.2051240">[2]</a> for inference-time decision making.</li>
-  <li>Leveraging <em>gradient-based heuristics</em> <a href="https://arxiv.org/abs/2002.08484">[3]</a>, <a href="https://arxiv.org/abs/2402.04333">[4]</a> for active learning.</li>
-  <li>Exploring <strong>reinforcement learning</strong> and <strong>alignment techniques</strong> to enable adaptive, continuous annotation pipelines with principled decisions.</li>
-</ul>
-
-<p>
-I'm also interested in alternative labeling strategies such as <strong>ratings</strong>, <strong>rankings</strong>, and <strong>ordinal classifications</strong>.
-</p>
-
-</details>
-
-<hr>
-
-<details>
-<summary><strong>Multimodal Learning for Language and Speech</strong>: Fusing audio, text, and vision to solve tasks that are natural for humans — but hard for machines.</summary>
-
-<br>
-
-<p>
-I build models that integrate <strong>speech, text, and vision</strong> for tasks like:
+I began my research journey with emotion recognition, and while I’ve developed a fair amount of expertise in that space. I was also drawn to <strong>speaker recognition</strong> and <strong>diarization</strong>. I found diarization particularly interesting — it's a fundamental speech task with open challenges in <em>temporal structure, multimodal fusion, and low-resource adaptation</em>. I also dabbled in mulimodality: Fusing audio, text, and vision to solve tasks that are natural for humans — but hard for machines. Some of my papers in this field are: 
 </p>
 
 <ul>
@@ -66,58 +45,4 @@ I build models that integrate <strong>speech, text, and vision</strong> for task
   <li><strong>Speaker Recognition</strong> (<a href="https://Prabhav55221.github.io/file/2025286331.pdf">example</a>)</li>
 </ul>
 
-<p>
-My models learn from <strong>heterogeneous modalities</strong> with <em>minimal supervision</em>. I began my research journey with emotion recognition, and while I’ve developed a fair amount of expertise in that space, I’m increasingly drawn to <strong>speaker recognition</strong> and <strong>diarization</strong>. I find diarization particularly interesting — it's a fundamental speech task with open challenges in <em>temporal structure, multimodal fusion, and low-resource adaptation</em>. My recent works are focused on improving diarization quality through multitask learning and adaptive fusion.
-</p>
-
 </details>
-
-<hr>
-
-<details>
-<summary><strong>ML Learning Theory / Replicability</strong>: Understanding how adaptive decisions affect replicability in transfer learning.</summary>
-
-<br>
-
-<p>
-Thanks to rigorous theory coursework at JHU (<a href="https://jess-sorrell.github.io/Courses/Replicable-ML/main.html">this</a>), I’ve developed a strong interest in <strong>replicability theory</strong> — distinct from reproducibility (See <a href="https://arxiv.org/abs/2201.08430">[this]</a> and <a href="https://arxiv.org/abs/2305.15284">[this]</a>).
-</p>
-
-<p>
-My initial research in this area (guided by <a href="https://jess-sorrell.github.io">Prof. Jess Sorrell</a>) focuses on:
-</p>
-
-<ul>
-  <li>Deriving <strong>replicability bounds</strong> for <strong>transfer learning</strong>.</li>
-  <li>Investigating how <strong>adaptive data selection</strong> affects transferability and stability of learned models.</li>
-</ul>
-
-<p>
-Read our ongoing manuscript: <a href="https://www.arxiv.org/abs/2508.04901">Sensitivity of Selectivity in Transfer Learning</a> <em>(under review at TMLR)</em>.
-</p>
-
-</details>
-
----
-
-## 📢 recent updates
-
-- **August 2025**  
-  One paper <a href="https://Prabhav55221.github.io/file/2025286331.pdf">accepted</a> to ASRU 2025 (learnings from our submission to NIST SRE 2024). Also, my paper with <a href="https://jess-sorrell.github.io">Prof. Jess Sorrell</a> is <a href="https://www.arxiv.org/abs/2508.04901">available on arxiv</a> and under review at TMLR!
-
-- **August 2025**  
-  Wrapped up my summer internship at a **stealth startup** in California — worked on agentic workflows for document understanding in finance and retail.
-
-- **May 2025**  
-  Two papers accepted at **INTERSPEECH 2025**! (See [this post](https://x.com/psingh522/status/1925354318988751117)). Excited to present in Rotterdam 🇳🇱!
-
-- **April 2025**  
-  Our poster on LLM + Human collaboration ([read here](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)) won **Best Poster** at [MASC-SLL 2025](https://www.mascsll.org/program/#:~:text=Active%20Learning%20and%20Feature%2DAcquisition%20with%20LLMs%20and%20Humans%20(Prabhav%20Singh%2C%20Haojun%20Shi%2C%20Jason%20Eisner)).
-
-- **September 2024**  
-  Our **ICMI’24** paper on multimodal emotion recognition for **Mild Cognitive Impairment (MCI)** is now [available](https://dl.acm.org/doi/10.1145/3678957.3689332).
-
-<br>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/MASCSLL2025?src=hash&amp;ref_src=twsrc%5Etfw">#MASCSLL2025</a> was super fun! Thanks to <a href="https://twitter.com/penn_state?ref_src=twsrc%5Etfw">@penn_state</a> for organising <a href="https://twitter.com/MASC_Conference?ref_src=twsrc%5Etfw">@MASC_Conference</a> (and for the ice-cream). <br><br>Our paper also won a best-poster award! <a href="https://t.co/1AlPB6iRG4">pic.twitter.com/1AlPB6iRG4</a></p>&mdash; Prabhav Singh (@psingh522) <a href="https://twitter.com/psingh522/status/1908705799276277926?ref_src=twsrc%5Etfw">April 6, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-

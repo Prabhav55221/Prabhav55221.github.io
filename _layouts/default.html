@@ -1,64 +1,119 @@
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-{% include head.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Prabhav Singh</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Personal website of Prabhav Singh, PhD student in CS at UT Austin.{% endif %}">
 
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <link rel="stylesheet" href="/assets/css/prabhav.css">
 
-  gtag('config', 'G-T5N5JY1E21');
-</script>
-
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date()); gtag('config','G-T5N5JY1E21');
+  </script>
 </head>
 
+<body>
+<div class="ps-wrapper">
 
+  <!-- ═══ SIDEBAR ═══ -->
+  <aside class="ps-sidebar">
+    <img src="/profile.png" alt="Prabhav Singh" class="ps-photo">
 
-<body class="page" itemscope itemtype="http://schema.org/WebPage">
+    <div class="ps-name">
+      <span class="ps-name-first">Prabhav</span>
+      <span class="ps-name-last">Singh</span>
+    </div>
+    <div class="ps-affil">
+      Master's CS (Thesis),<br>
+      <a href="https://www.cs.jhu.edu" target="_blank">Department of Computer Science</a><br>
+      <a href="https://www.clsp.jhu.edu" target="_blank">Center for Language and Speech Processing</a><br>
+      <a href="https://engineering.jhu.edu" target="_blank">Johns Hopkins University</a>, Baltimore MD
+    </div>
+    <div class="ps-email">
+      <a href="mailto:psingh54@jhu.edu">psingh54 [at] jhu.edu</a>
+    </div>
 
-{% include chrome-frame.html %}
+    <div class="ps-social">
+      <a href="https://twitter.com/psingh522" target="_blank">
+        <i class="fab fa-x-twitter"></i>&nbsp;Twitter
+      </a>
+      <a href="https://github.com/Prabhav55221" target="_blank">
+        <i class="fab fa-github"></i>&nbsp;GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=NiUjxAwAAAAJ&hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i>&nbsp;Scholar
+      </a>
+      <a href="/file/prabhavsresume.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>&nbsp;CV
+      </a>
+    </div>
 
-{% include navigation.html %}
+    <div class="ps-divider"></div>
 
+    <nav aria-label="Site navigation">
+      <ul class="ps-nav">
+        <li>
+          <a href="/" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>
+            <span class="nav-icon"><i class="fas fa-house"></i></span>Home
+          </a>
+        </li>
+        <li>
+          <a href="/publications" {% if page.url contains 'publication' %}class="active"{% endif %}>
+            <span class="nav-icon"><i class="fas fa-scroll"></i></span>Publications
+          </a>
+        </li>
+        <li>
+          <a href="/random" {% if page.url contains 'random' %}class="active"{% endif %}>
+            <span class="nav-icon"><i class="fas fa-dice"></i></span>Misc
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->{% endif %}
+    <div class="ps-divider"></div>
 
-<div id="main" role="main"  itemprop="mainContentOfPage">
-  <div class="article-author-top">
-    {% include author-bio.html %}
-  </div>
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
+    <div class="ps-section-label">Recent (Scroll for More)</div>
+    <div class="ps-updates">
+      {% for update in site.data.updates %}
+      <div class="ps-update-item">
+        <div class="ps-update-date">{{ update.date }}</div>
+        <div class="ps-update-text">{{ update.text }}</div>
+      </div>
+      {% endfor %}
+    </div>
 
-<div class="footer-wrap">
-  <footer>
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
+  </aside>
 
-{% include scripts.html %}
+  <!-- ═══ MAIN ═══ -->
+  <main class="ps-main">
+    {{ content }}
+  </main>
 
+</div>
+
+<script>
+  if (document.querySelector('.twitter-tweet')) {
+    var s = document.createElement('script');
+    s.src = 'https://platform.twitter.com/widgets.js';
+    s.async = true; document.head.appendChild(s);
+  }
+</script>
 </body>
 </html>

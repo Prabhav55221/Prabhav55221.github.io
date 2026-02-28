@@ -1,6 +1,6 @@
 ---
-layout: page
-permalink: /notes/index.html
+layout: default
+permalink: /notes/
 title: Notes
 ---
 
