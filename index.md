@@ -84,3 +84,19 @@ I began my research journey with emotion recognition, and while I’ve developed
 </div>
 
 <p style="font-size:0.82rem; color:var(--text-muted); margin-top:0.5rem;"><a href="/publications">See all publications →</a></p>
+
+<div class="mobile-only">
+
+<hr>
+<h2>Recent</h2>
+
+<div class="ps-updates" style="max-height:none; overflow-y:visible; padding-right:0;">
+  {% for update in site.data.updates %}
+  <div class="ps-update-item">
+    <div class="ps-update-date">{{ update.date }}</div>
+    <div class="ps-update-text">{{ update.text }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+</div>

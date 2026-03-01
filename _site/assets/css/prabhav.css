@@ -572,6 +572,11 @@ hr { border: none; border-top: 1px solid var(--border); margin: 1.8rem 0 1rem; }
 /* Twitter embed */
 .twitter-tweet { margin: 1.4rem 0 !important; }
 
+/* ── RESPONSIVE VISIBILITY ── */
+.mobile-only { display: none; }
+.desktop-only { display: block; }
+.ps-updates.desktop-only { display: flex; flex-direction: column; }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 760px) {
   .ps-wrapper { flex-direction: column; height: auto; overflow: visible; }
@@ -588,4 +593,6 @@ hr { border: none; border-top: 1px solid var(--border); margin: 1.8rem 0 1rem; }
   .ps-main { height: auto; overflow-y: visible; padding: 28px 20px 40px; }
   .ps-social { margin-top: 12px; }
   img.floatpic { width: 100px; }
+  .mobile-only { display: block; }
+  .desktop-only { display: none !important; }
 }
