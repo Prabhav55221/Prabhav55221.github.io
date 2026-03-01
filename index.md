@@ -20,7 +20,7 @@ My research interests are focused on **method development in NLP**, with an emph
 
 <div class="research-list" markdown="1">
 
-1. **Clarification, Uncertainty & Attribution:** Studying how *models navigate ambiguous interactions*: knowing when and how to seek clarification, expressing uncertainty and sunderspecification.
+1. **Clarification, Uncertainty & Attribution:** Studying how *models navigate ambiguous interactions*: knowing when and how to seek clarification, expressing uncertainty and underspecification.
 
 2. **Human-AI Collaboration:** Building frameworks that optimize decisions in human-LLM workflows, determining when human judgment is needed versus when LLMs suffice (See [this](https://Prabhav55221.github.io/marformer) and [this](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)).
 
@@ -46,3 +46,41 @@ I began my research journey with emotion recognition, and while I’ve developed
 </ul>
 
 </details>
+
+---
+## Selected Publications
+
+<div class="pub-list">
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html" target="_blank">Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization</a></div>
+  <div class="pub-authors"><strong class="me">Prabhav Singh</strong>, Jesus Villalba, Najim Dehak</div>
+  <div class="pub-venue">Interspeech 2025 · Rotterdam, Netherlands</div>
+  <div class="pub-links">
+    <a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html" class="pub-link" target="_blank">Paper</a>
+    <span class="pub-award">Oral · Top 20%</span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://www.arxiv.org/abs/2508.04901" target="_blank">Sensitivity of Stability: Theoretical &amp; Empirical Analysis of Replicability for Adaptive Data Selection in Transfer Learning</a></div>
+  <div class="pub-authors"><strong class="me">Prabhav Singh</strong>, Jessica Sorrell</div>
+  <div class="pub-venue">arXiv preprint · 2025</div>
+  <div class="pub-links">
+    <a href="https://www.arxiv.org/abs/2508.04901" class="pub-link" target="_blank">arXiv</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf" target="_blank">Active Learning and Feature-Acquisition with LLMs and Humans</a></div>
+  <div class="pub-authors"><strong class="me">Prabhav Singh</strong>†, Haojun Shi†, Jason Eisner</div>
+  <div class="pub-venue">Mid-Atlantic Student Colloquium on Speech, Language and Learning (MASC-SLL 2025)</div>
+  <div class="pub-links">
+    <a href="https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf" class="pub-link" target="_blank">Poster</a>
+    <span class="pub-award">Best Poster Award</span>
+  </div>
+</div>
+
+</div>
+
+<p style="font-size:0.82rem; color:var(--text-muted); margin-top:0.5rem;"><a href="/publications">See all publications →</a></p>
