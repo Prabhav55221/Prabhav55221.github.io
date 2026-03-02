@@ -1,1 +1,6 @@
 _opinions/tester.md
+_weekly_papers/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
