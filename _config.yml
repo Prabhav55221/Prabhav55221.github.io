@@ -32,7 +32,7 @@ markdown:    kramdown
 highlighter: rouge
 
 kramdown:
-  math_engine: mathjax
+  math_engine: none
   input: GFM
   hard_wrap: false
 
