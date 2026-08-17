@@ -7,11 +7,13 @@ permalink: /
 
 I'm **Prabhav Singh** *(pronounced **Pruh-bhav**)*.
 
-I’m currently pursuing my **Master’s in Computer Science (Thesis)** with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) at [Johns Hopkins University](https://engineering.jhu.edu), where I conduct research at the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/). I’m fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). 
+I am a first-year Ph.D. student at **UT Austin**, advised by Prof. [Elias Stengel-Eskin](https://esteng.github.io) and Prof. [Jessy Li](https://jessyli.com). 
 
-Before this, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
+Before joining UT, I received my MS in Computer Science with a specialization in [Human Language Technologies](https://www.clsp.jhu.edu/human-language-technology-masters/) from [Johns Hopkins University](https://engineering.jhu.edu) and the [Center for Language and Speech Processing (CLSP)](https://www.clsp.jhu.edu/). I was fortunate to be advised by [Prof. Jason Eisner](https://www.cs.jhu.edu/~jason/) and [Prof. Jesus Villalba](https://engineering.jhu.edu/faculty/jesus-villalba/). 
 
-You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf) or read more about me [here](https://Prabhav55221.github.io/about). Feel free to reach out at: `psingh54 at jhu dot edu`
+Before that, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
+
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `prabhav@utexas.edu`.
 
 ---
 ## Research Interests
@@ -27,8 +29,6 @@ My research interests are focused on **method development in NLP**, with an emph
 3. **Reasoning in LLMs:** Understanding and surfacing uncertainty in LLM reasoning, and grounding reasoning chains in relevant documents from the model’s training data.
 
 </div>
-
-Previously, owing to my background in ECE, I have also worked a lot on speech representation and speaker systems. These days, I find my interest more in language and methoids. You can read more about my previous research below:
 
 <details>
 <summary><strong>Previous Interests</strong></summary>

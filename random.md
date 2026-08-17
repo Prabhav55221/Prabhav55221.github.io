@@ -8,7 +8,7 @@ title: Misc
 
 ---
 
-### <span style="border-bottom: 2px solid #db3e75;">Run! 🏃‍♂️</span>
+### <span style="border-bottom: 2px solid #db3e75;">Run!</span>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
   <img src="https://Prabhav55221.github.io/images/morningrun.jpeg" alt="Morning run at JHU" style="width: 45%; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
@@ -17,13 +17,13 @@ title: Misc
 
 <br>
 
-I could run a marathon before but I can hardly run 10 KMs now. I try to once or twice every week, but these mostly end up being short 5K runs. For a 5K run, I time at 5:30 minutes/KM on average (sorry for the folks following this in the US <span style="color: #db3e75; font-style: italic;">(read: wrong)</span> system of measurement). **JHU is an amazing place to run** in general — the scenery never disappoints!
+I could run a marathon before but I can hardly run 10 KMs now. I try to once or twice every week, but these mostly end up being short 5K runs. For a 5K run, I time at 5:30 minutes/KM on average (sorry for the folks following this in the US <span style="color: #db3e75; font-style: italic;">(read: wrong)</span> system of measurement).
 
 I also play (and watch) football (soccer for the US folks) regularly.
 
 ---
 
-### <span style="border-bottom: 2px solid #db3e75;">Read! 📖</span>
+### <span style="border-bottom: 2px solid #db3e75;">Read!</span>
 
 Sadly this has turned to reading papers instead of books, but I did boast of a big library at my home in India (my brother has asserted control of all books now that I am in US).
 
@@ -35,7 +35,7 @@ Sadly this has turned to reading papers instead of books, but I did boast of a b
 
 ---
 
-### <span style="border-bottom: 2px solid #db3e75;">Music! 🎸</span>
+### <span style="border-bottom: 2px solid #db3e75;">Music!</span>
 
 I play the guitar — I started with the acoustic when I was 10 and I have recently picked up the electric (as all guitarists must do at some stage).  
 I cannot and won’t work with music in the background and I won’t sleep without music either (others find this irritating).  
