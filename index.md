@@ -18,7 +18,7 @@ You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhav
 ---
 ## Research Interests
 
-My research interests are focused on **method development in NLP**, with an emphasis on approaches that are adaptable to supervision constraints and aligned with how **humans naturally teach, label, and reason**. I am interested in developing methods in the *fuzzy area*, where we must learn from partial feedback, conflicting signals, and implicit preferences.
+On a very high level, I am interested in **computational linguistics**, with an emphasis on approaches that are adaptable to supervision constraints and aligned with how **humans naturally teach, label, and reason**. I am interested in developing methods in the *fuzzy area*, where learning must happen from partial feedback, conflicting signals, and implicit preferences.
 
 <div class="research-list" markdown="1">
 
