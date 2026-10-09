@@ -32,7 +32,7 @@ conferences:
     venue: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2025)"
     year: 2025
     links:
-      paper: "https://Prabhav55221.github.io/file/2025286331.pdf"
+      paper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11434674"
 
   - title: "Multimodal Emotion Recognition Harnessing the Complementarity of Speech, Language, and Vision"
     authors: "Thomas Thebaud†, Anna Favaro†, Prabhav Singh†, Yaohan Guan†, Yuchen Yang†, Jesus Villalba, Laureano Mono-Velazquez, Najim Dehak"
@@ -67,6 +67,13 @@ journals:
 
 preprints:
 
+  - title: "CrossWeave: Bridging Perspectives Across Online Communities with a Dual-Pane Design"
+    authors: "Fei Fang, Reva Hirave, Prabhav Singh et al."
+    venue: "CSCW 2026"
+    year: 2026
+    links:
+      paper: "https://arxiv.org/abs/2610.10441v1"
+
   - title: "Sensitivity of Stability: Theoretical & Empirical Analysis of Replicability for Adaptive Data Selection in Transfer Learning"
     authors: "Prabhav Singh, Jessica Sorrell"
     venue: "arXiv preprint · 2025"
@@ -79,8 +86,7 @@ preprints:
     venue: "CLSP, Johns Hopkins University"
     year: 2025
     links:
-      paper: "https://Prabhav55221.github.io/marformer"
-    note: "In Progress . MSE Thesis"
+      paper: "https://arxiv.org/abs/2610.12379v1"
 
   - title: "Active Learning and Feature-Acquisition with LLMs and Humans"
     authors: "Prabhav Singh†, Haojun Shi†, Jason Eisner"
@@ -89,11 +95,3 @@ preprints:
     links:
       poster: "https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf"
     award: "Best Poster Award"
-
-  - title: "The JHU-MIT Submission to NIST 2024 Speaker Recognition Evaluation (SRE24)"
-    authors: "Jesus Villalba, Prabhav Singh, J. Borgstrom et al."
-    venue: "NIST Speaker Recognition Evaluation 2024"
-    year: 2024
-    links:
-      paper: "https://Prabhav55221.github.io/file/nistsre.pdf"
-    note: "Accepted & Presented"

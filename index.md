@@ -13,18 +13,18 @@ Before joining UT, I received my MS in Computer Science with a specialization in
 
 Before that, I earned my **Bachelor’s in Electrical Engineering** from [Delhi University](https://www.du.ac.in), where I worked with [Prof. K.P.S. Rana](https://sites.google.com/site/kpsrana1/home) and [Prof. Vineet Kumar](http://nsut.ac.in/en/node/554) at the APC Lab, NSIT.
 
-You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `prabhav@utexas.edu`.
+You can find more details in my [CV](https://Prabhav55221.github.io/file/prabhavsresume.pdf). Feel free to reach out at: `prabhavs@cs.utexas.edu`.
 
 ---
 ## Research Interests
 
-On a very high level, I am interested in **computational linguistics**, with an emphasis on approaches that are adaptable to supervision constraints and aligned with how **humans naturally teach, label, and reason**. I am interested in developing methods in the *fuzzy area*, where learning must happen from partial feedback, conflicting signals, and implicit preferences.
+I am interested in **computational linguistics**, with an emphasis on approaches that are adaptable to supervision constraints and aligned with how **humans naturally teach, label, and reason**. Specifically, this boils dow to:
 
 <div class="research-list" markdown="1">
 
-1. **Clarification, Uncertainty & Attribution:** Studying how *models navigate ambiguous interactions*: knowing when and how to seek clarification, expressing uncertainty and underspecification.
+1. **Clarification, Uncertainty & Attribution:** Studying how *models navigate ambiguous conversations*: knowing when and how to seek clarification, expressing uncertainty and underspecification.
 
-2. **Human-AI Collaboration:** Building frameworks that optimize decisions in human-LLM workflows, determining when human judgment is needed versus when LLMs suffice (See [this](https://Prabhav55221.github.io/marformer) and [this](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)).
+2. **Human-AI Collaboration:** Building frameworks that optimize decisions in human-LLM workflows, determining when human judgment is needed versus when LLMs suffice (See [this](https://arxiv.org/abs/2610.12379v1) and [this](https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf)).
 
 3. **Reasoning in LLMs:** Understanding and surfacing uncertainty in LLM reasoning, and grounding reasoning chains in relevant documents from the model’s training data.
 
@@ -53,6 +53,15 @@ I began my research journey with emotion recognition, and while I’ve developed
 <div class="pub-list">
 
 <div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2610.12379v1" target="_blank">Marformer: A Transformer for Predicting Missing Data Distributions</a></div>
+  <div class="pub-authors"><strong class="me">Prabhav Singh</strong>†, Tom Wang†, Haojun Shi†, Jason Eisner</div>
+  <div class="pub-venue">Presented in part in a COLM 2026 Keynote by Jason Eisner</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2610.12379v1" class="pub-link" target="_blank">Paper</a>
+  </div>
+</div>
+
+<div class="pub-item">
   <div class="pub-title"><a href="https://www.isca-archive.org/interspeech_2025/singh25_interspeech.html" target="_blank">Count Your Speakers! Multitask Learning for Multimodal Speaker Diarization</a></div>
   <div class="pub-authors"><strong class="me">Prabhav Singh</strong>, Jesus Villalba, Najim Dehak</div>
   <div class="pub-venue">Interspeech 2025 · Rotterdam, Netherlands</div>
@@ -68,16 +77,6 @@ I began my research journey with emotion recognition, and while I’ve developed
   <div class="pub-venue">arXiv preprint · 2025</div>
   <div class="pub-links">
     <a href="https://www.arxiv.org/abs/2508.04901" class="pub-link" target="_blank">arXiv</a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf" target="_blank">Active Learning and Feature-Acquisition with LLMs and Humans</a></div>
-  <div class="pub-authors"><strong class="me">Prabhav Singh</strong>†, Haojun Shi†, Jason Eisner</div>
-  <div class="pub-venue">Mid-Atlantic Student Colloquium on Speech, Language and Learning (MASC-SLL 2025)</div>
-  <div class="pub-links">
-    <a href="https://Prabhav55221.github.io/file/MASCSLL-FINAL.pdf" class="pub-link" target="_blank">Poster</a>
-    <span class="pub-award">Best Poster Award</span>
   </div>
 </div>
 
